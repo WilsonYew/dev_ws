@@ -1,0 +1,12 @@
+[31mCMake Error at CMakeLists.txt:26 (install):
+  Syntax error in cmake code at
+
+    /home/wilsonlo/dev_ws/src/my_package/CMakeLists.txt:27
+
+  when parsing string
+
+    share/${PROJECT_NAME
+
+  There is an unterminated variable reference.
+
+[0m

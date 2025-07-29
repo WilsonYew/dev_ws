@@ -1,0 +1,55 @@
+[0.018s] Invoking command in '/home/wilsonlo/dev_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/urdf_example -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/urdf_example
+[1.372s] -- The C compiler identification is GNU 13.3.0
+[2.391s] -- The CXX compiler identification is GNU 13.3.0
+[2.419s] -- Detecting C compiler ABI info
+[2.819s] -- Detecting C compiler ABI info - done
+[2.837s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.837s] -- Detecting C compile features
+[2.838s] -- Detecting C compile features - done
+[2.868s] -- Detecting CXX compiler ABI info
+[3.191s] -- Detecting CXX compiler ABI info - done
+[3.209s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.209s] -- Detecting CXX compile features
+[3.210s] -- Detecting CXX compile features - done
+[3.337s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.631s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.778s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.927s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.936s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.936s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.938s] -- Added test 'lint_cmake' to check CMake code style
+[3.940s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.945s] -- Added test 'xmllint' to check XML markup files
+[3.947s] -- Configuring done (3.9s)
+[3.951s] -- Generating done (0.0s)
+[3.953s] -- Build files have been written to: /home/wilsonlo/dev_ws/build/urdf_example
+[3.961s] Invoked command in '/home/wilsonlo/dev_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/urdf_example -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/urdf_example
+[3.962s] Invoking command in '/home/wilsonlo/dev_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/urdf_example -- -j8 -l8
+[4.010s] Invoked command in '/home/wilsonlo/dev_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/urdf_example -- -j8 -l8
+[4.011s] Invoking command in '/home/wilsonlo/dev_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/urdf_example
+[4.026s] -- Install configuration: ""
+[4.026s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/description
+[4.026s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/description/example_include.xacro
+[4.026s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/description/example_robot.urdf.xacro
+[4.026s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/description/example_gazebo.xacro
+[4.026s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/launch
+[4.026s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/launch/rsp.launch.py
+[4.026s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/launch/rsp_sim.launch.py
+[4.026s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/worlds
+[4.026s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/worlds/test_world.world
+[4.026s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/ament_index/resource_index/package_run_dependencies/urdf_example
+[4.027s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/ament_index/resource_index/parent_prefix_path/urdf_example
+[4.027s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/environment/ament_prefix_path.sh
+[4.027s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/environment/ament_prefix_path.dsv
+[4.027s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/environment/path.sh
+[4.027s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/environment/path.dsv
+[4.027s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/local_setup.bash
+[4.028s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/local_setup.sh
+[4.028s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/local_setup.zsh
+[4.028s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/local_setup.dsv
+[4.028s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.dsv
+[4.029s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/ament_index/resource_index/packages/urdf_example
+[4.029s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig.cmake
+[4.029s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig-version.cmake
+[4.029s] -- Installing: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.xml
+[4.046s] Invoked command in '/home/wilsonlo/dev_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/urdf_example

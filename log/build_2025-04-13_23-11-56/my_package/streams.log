@@ -1,0 +1,23 @@
+[0.282s] Invoking command in '/home/wilsonlo/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/my_package -- -j8 -l8
+[1.201s] Invoked command in '/home/wilsonlo/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/my_package -- -j8 -l8
+[1.283s] Invoking command in '/home/wilsonlo/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/my_package
+[1.311s] -- Install configuration: ""
+[1.312s] -- Execute custom install script
+[1.335s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/launch/listener.launch.py
+[1.335s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/launch/talker.launch.py
+[1.336s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.336s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.336s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.337s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.337s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/environment/path.sh
+[1.337s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/environment/path.dsv
+[1.338s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/local_setup.bash
+[1.338s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/local_setup.sh
+[1.338s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/local_setup.zsh
+[1.338s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/local_setup.dsv
+[1.339s] -- Symlinking: /home/wilsonlo/dev_ws/install/my_package/share/my_package/package.dsv
+[1.349s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.349s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.349s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.349s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/package.xml
+[1.393s] Invoked command in '/home/wilsonlo/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/my_package

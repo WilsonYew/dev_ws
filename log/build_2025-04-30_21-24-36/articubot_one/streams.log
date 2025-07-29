@@ -1,0 +1,70 @@
+[0.030s] Invoking command in '/home/wilsonlo/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/articubot_one
+[0.050s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.439s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.452s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.620s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.627s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.627s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.628s] -- Added test 'lint_cmake' to check CMake code style
+[0.629s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.633s] -- Added test 'xmllint' to check XML markup files
+[0.635s] -- Configuring done (0.6s)
+[0.640s] -- Generating done (0.0s)
+[0.644s] -- Build files have been written to: /home/wilsonlo/dev_ws/build/articubot_one
+[0.649s] Invoked command in '/home/wilsonlo/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/articubot_one
+[0.650s] Invoking command in '/home/wilsonlo/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/articubot_one -- -j8 -l8
+[0.723s] Invoked command in '/home/wilsonlo/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/articubot_one -- -j8 -l8
+[0.724s] Invoking command in '/home/wilsonlo/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/articubot_one
+[0.740s] -- Install configuration: ""
+[0.740s] -- Execute custom install script
+[0.741s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[0.761s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[0.773s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[0.788s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.800s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[0.817s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/gz_bridge.yaml
+[0.830s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/joystick.yaml
+[0.848s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/main.rviz
+[0.864s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/map.rviz
+[0.874s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[0.885s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[0.898s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[0.911s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[0.924s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[0.940s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/camera.xacro
+[0.954s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[0.967s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/face.xacro
+[0.985s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.006s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[1.023s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
+[1.037s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[1.055s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[1.071s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[1.083s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[1.099s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[1.111s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[1.123s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[1.133s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[1.145s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[1.156s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[1.166s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[1.177s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[1.190s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.200s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.211s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[1.226s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.244s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.256s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.266s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.276s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[1.286s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.297s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[1.308s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[1.319s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.331s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.343s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.dsv
+[1.354s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.366s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.378s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.388s] -- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.xml
+[1.401s] Invoked command in '/home/wilsonlo/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/articubot_one

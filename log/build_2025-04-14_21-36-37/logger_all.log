@@ -1,0 +1,473 @@
+[0.112s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.113s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e655128c890>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e655121a630>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e655121a630>>, mixin_verb=('build',))
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.151s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wilsonlo/dev_ws'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dd_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dd_bot) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dd_bot) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dd_bot) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dd_bot) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dd_bot) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dd_bot) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dd_bot) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/dd_bot) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dd_bot' with type 'ros.ament_cmake' and name 'dd_bot'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_cmake' and name 'my_package'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urdf_example' with type 'ros.ament_cmake' and name 'urdf_example'
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.207s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/wilsonlo/dev_ws/install
+[0.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 367 installed packages in /opt/ros/jazzy
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[0.264s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.264s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wilsonlo/dev_ws/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wilsonlo/dev_ws/install/articubot_one', 'merge_install': False, 'path': '/home/wilsonlo/dev_ws/src/articubot_one', 'symlink_install': True, 'test_result_base': None}
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'dd_bot' build argument 'cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'dd_bot' build argument 'cmake_target' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'dd_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'dd_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'dd_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'dd_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'dd_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'dd_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'dd_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.265s] DEBUG:colcon.colcon_core.verb:Building package 'dd_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wilsonlo/dev_ws/build/dd_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wilsonlo/dev_ws/install/dd_bot', 'merge_install': False, 'path': '/home/wilsonlo/dev_ws/src/dd_bot', 'symlink_install': True, 'test_result_base': None}
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.265s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.265s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wilsonlo/dev_ws/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wilsonlo/dev_ws/install/my_package', 'merge_install': False, 'path': '/home/wilsonlo/dev_ws/src/my_package', 'symlink_install': True, 'test_result_base': None}
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/wilsonlo/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'urdf_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wilsonlo/dev_ws/build/urdf_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wilsonlo/dev_ws/install/urdf_example', 'merge_install': False, 'path': '/home/wilsonlo/dev_ws/src/urdf_example', 'symlink_install': True, 'test_result_base': None}
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wilsonlo/dev_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wilsonlo/dev_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/wilsonlo/dev_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
+[0.267s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.268s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.268s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wilsonlo/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[0.268s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wilsonlo/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs'
+[0.270s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wilsonlo/dev_ws/src/articubot_one' with build type 'ament_cmake'
+[0.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wilsonlo/dev_ws/src/articubot_one'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wilsonlo/dev_ws/src/dd_bot' with build type 'ament_cmake'
+[0.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wilsonlo/dev_ws/src/dd_bot'
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.285s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wilsonlo/dev_ws/src/my_package' with build type 'ament_cmake'
+[0.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wilsonlo/dev_ws/src/my_package'
+[0.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.288s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wilsonlo/dev_ws/src/urdf_example' with build type 'ament_cmake'
+[0.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wilsonlo/dev_ws/src/urdf_example'
+[0.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[0.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wilsonlo/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/articubot_one -- -j8 -l8
+[0.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wilsonlo/dev_ws/build/dd_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/dd_bot -- -j8 -l8
+[0.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wilsonlo/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/my_package -- -j8 -l8
+[0.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wilsonlo/dev_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/urdf_example -- -j8 -l8
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wilsonlo/dev_ws/build/dd_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/dd_bot -- -j8 -l8
+[0.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wilsonlo/dev_ws/build/dd_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/dd_bot
+[0.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wilsonlo/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/articubot_one -- -j8 -l8
+[0.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wilsonlo/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/articubot_one
+[0.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wilsonlo/dev_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/urdf_example -- -j8 -l8
+[0.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wilsonlo/dev_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/urdf_example
+[0.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wilsonlo/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/my_package -- -j8 -l8
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wilsonlo/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/my_package
+[0.391s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_example)
+[0.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wilsonlo/dev_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/urdf_example
+[0.399s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/urdf_example' for CMake module files
+[0.399s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/urdf_example' for CMake config files
+[0.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_example', 'cmake_prefix_path')
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/hook/cmake_prefix_path.ps1'
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/hook/cmake_prefix_path.dsv'
+[0.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/hook/cmake_prefix_path.sh'
+[0.403s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/urdf_example/bin'
+[0.404s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/urdf_example/lib/pkgconfig/urdf_example.pc'
+[0.404s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/urdf_example/lib/python3.12/site-packages'
+[0.404s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/urdf_example/bin'
+[0.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.ps1'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.dsv'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.sh'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.bash'
+[0.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.zsh'
+[0.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wilsonlo/dev_ws/install/urdf_example/share/colcon-core/packages/urdf_example)
+[0.411s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_example)
+[0.411s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/urdf_example' for CMake module files
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/urdf_example' for CMake config files
+[0.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_example', 'cmake_prefix_path')
+[0.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/hook/cmake_prefix_path.ps1'
+[0.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/hook/cmake_prefix_path.dsv'
+[0.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/hook/cmake_prefix_path.sh'
+[0.415s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/urdf_example/bin'
+[0.415s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/urdf_example/lib/pkgconfig/urdf_example.pc'
+[0.416s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/urdf_example/lib/python3.12/site-packages'
+[0.416s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/urdf_example/bin'
+[0.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.ps1'
+[0.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.dsv'
+[0.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.sh'
+[0.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.bash'
+[0.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.zsh'
+[0.420s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wilsonlo/dev_ws/install/urdf_example/share/colcon-core/packages/urdf_example)
+[0.423s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/my_package' for CMake module files
+[0.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wilsonlo/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/my_package
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/my_package' for CMake config files
+[0.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/my_package/bin'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/my_package/lib/python3.12/site-packages'
+[0.429s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/my_package/bin'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/my_package/share/my_package/package.ps1'
+[0.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wilsonlo/dev_ws/install/my_package/share/my_package/package.dsv'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/my_package/share/my_package/package.sh'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/my_package/share/my_package/package.bash'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/my_package/share/my_package/package.zsh'
+[0.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wilsonlo/dev_ws/install/my_package/share/colcon-core/packages/my_package)
+[0.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/my_package' for CMake module files
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/my_package' for CMake config files
+[0.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'cmake_prefix_path')
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/my_package/share/my_package/hook/cmake_prefix_path.ps1'
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/my_package/share/my_package/hook/cmake_prefix_path.dsv'
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/my_package/share/my_package/hook/cmake_prefix_path.sh'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/my_package/bin'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/my_package/lib/python3.12/site-packages'
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/my_package/bin'
+[0.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/my_package/share/my_package/package.ps1'
+[0.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wilsonlo/dev_ws/install/my_package/share/my_package/package.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/my_package/share/my_package/package.sh'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/my_package/share/my_package/package.bash'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/my_package/share/my_package/package.zsh'
+[0.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wilsonlo/dev_ws/install/my_package/share/colcon-core/packages/my_package)
+[0.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[0.441s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/articubot_one' for CMake module files
+[0.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wilsonlo/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/articubot_one
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/articubot_one' for CMake config files
+[0.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/articubot_one/bin'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/articubot_one/lib/python3.12/site-packages'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/articubot_one/bin'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
+[0.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
+[0.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.sh'
+[0.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.bash'
+[0.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
+[0.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wilsonlo/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[0.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/articubot_one' for CMake module files
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/articubot_one' for CMake config files
+[0.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/articubot_one/bin'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/articubot_one/lib/python3.12/site-packages'
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/articubot_one/bin'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.ps1'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.dsv'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.sh'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.bash'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.zsh'
+[0.468s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wilsonlo/dev_ws/install/articubot_one/share/colcon-core/packages/articubot_one)
+[0.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dd_bot)
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/dd_bot' for CMake module files
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/dd_bot' for CMake config files
+[0.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wilsonlo/dev_ws/build/dd_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/dd_bot
+[0.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('dd_bot', 'cmake_prefix_path')
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/hook/cmake_prefix_path.ps1'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/hook/cmake_prefix_path.dsv'
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/hook/cmake_prefix_path.sh'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/dd_bot/bin'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/dd_bot/lib/pkgconfig/dd_bot.pc'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/dd_bot/lib/python3.12/site-packages'
+[0.472s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/dd_bot/bin'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.ps1'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.dsv'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.sh'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.bash'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.zsh'
+[0.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wilsonlo/dev_ws/install/dd_bot/share/colcon-core/packages/dd_bot)
+[0.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dd_bot)
+[0.475s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/dd_bot' for CMake module files
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/dd_bot' for CMake config files
+[0.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('dd_bot', 'cmake_prefix_path')
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/hook/cmake_prefix_path.ps1'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/hook/cmake_prefix_path.dsv'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/hook/cmake_prefix_path.sh'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/dd_bot/bin'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/dd_bot/lib/pkgconfig/dd_bot.pc'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/dd_bot/lib/python3.12/site-packages'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/dd_bot/bin'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.dsv'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.sh'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.bash'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.zsh'
+[0.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wilsonlo/dev_ws/install/dd_bot/share/colcon-core/packages/dd_bot)
+[0.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[0.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs
+[0.904s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs' for CMake module files
+[0.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs' for CMake config files
+[0.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib'
+[0.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/bin'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages'
+[0.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[0.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[0.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/bin'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[0.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[0.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[0.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs' for CMake module files
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs' for CMake config files
+[0.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[0.917s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib'
+[0.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/bin'
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages'
+[0.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[0.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/bin'
+[0.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[0.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[0.923s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wilsonlo/dev_ws/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[0.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[0.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[0.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[0.925s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.925s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.165s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wilsonlo/dev_ws/src/serial_motor_demo/serial_motor_demo'
+[1.166s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.166s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wilsonlo/dev_ws/build/serial_motor_demo': CMAKE_PREFIX_PATH=/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wilsonlo/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/build/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wilsonlo/dev_ws/build/serial_motor_demo/build --no-deps symlink_data
+[2.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath_develop')
+[2.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.ps1'
+[2.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wilsonlo/dev_ws/build/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wilsonlo/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/build/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wilsonlo/dev_ws/build/serial_motor_demo/build --no-deps symlink_data
+[2.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.dsv'
+[2.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.sh'
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo' for CMake module files
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo' for CMake config files
+[2.564s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib'
+[2.564s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo/bin'
+[2.564s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[2.564s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages'
+[2.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[2.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[2.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wilsonlo/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[2.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wilsonlo/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[2.566s] Level 1:colcon.colcon_core.environment:checking '/home/wilsonlo/dev_ws/install/serial_motor_demo/bin'
+[2.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[2.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[2.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wilsonlo/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[2.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[2.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[2.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/wilsonlo/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[2.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wilsonlo/dev_ws/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[2.569s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.569s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.569s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.569s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.575s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.575s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.575s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.586s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.587s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wilsonlo/dev_ws/install/local_setup.ps1'
+[2.588s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wilsonlo/dev_ws/install/_local_setup_util_ps1.py'
+[2.589s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wilsonlo/dev_ws/install/setup.ps1'
+[2.590s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wilsonlo/dev_ws/install/local_setup.sh'
+[2.591s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wilsonlo/dev_ws/install/_local_setup_util_sh.py'
+[2.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wilsonlo/dev_ws/install/setup.sh'
+[2.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wilsonlo/dev_ws/install/local_setup.bash'
+[2.593s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wilsonlo/dev_ws/install/setup.bash'
+[2.595s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wilsonlo/dev_ws/install/local_setup.zsh'
+[2.596s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wilsonlo/dev_ws/install/setup.zsh'

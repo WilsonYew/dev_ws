@@ -1,0 +1,39 @@
+[3.238s] Invoking command in '/home/wilsonlo/dev_ws/build/dd_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/dd_bot -- -j8 -l8
+[14.130s] Invoked command in '/home/wilsonlo/dev_ws/build/dd_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/dd_bot -- -j8 -l8
+[15.484s] Invoking command in '/home/wilsonlo/dev_ws/build/dd_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/dd_bot
+[16.764s] -- Install configuration: ""
+[16.811s] -- Execute custom install script
+[17.001s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/empty.yaml
+[17.002s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/gz_bridge.yaml
+[17.002s] -- Symlinking: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/my_controllers.yaml
+[17.017s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/twist_mux.yaml
+[17.017s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/view_bot.rviz
+[17.017s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/camera.xacro
+[17.017s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/depth_camera.xacro
+[17.018s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/gazebo_control.xacro
+[17.018s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/inertial_macros.xacro
+[17.018s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/left right wheel.txt
+[17.018s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/lidar.xacro
+[17.018s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/robot.urdf.xacro
+[17.018s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/robot_core.xacro
+[17.019s] -- Symlinking: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/ros2_control.xacro
+[17.029s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/launch_sim.launch.py
+[17.029s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/rplidar.launch.py
+[17.029s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/rsp.launch.py
+[17.029s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/worlds/empty.world
+[17.029s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/ament_index/resource_index/package_run_dependencies/dd_bot
+[17.029s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/ament_index/resource_index/parent_prefix_path/dd_bot
+[17.030s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/ament_prefix_path.sh
+[17.030s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/ament_prefix_path.dsv
+[17.030s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/path.sh
+[17.030s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/path.dsv
+[17.030s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.bash
+[17.031s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.sh
+[17.031s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.zsh
+[17.031s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.dsv
+[17.031s] -- Symlinking: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.dsv
+[17.040s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/ament_index/resource_index/packages/dd_bot
+[17.040s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/cmake/dd_botConfig.cmake
+[17.040s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/cmake/dd_botConfig-version.cmake
+[17.041s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.xml
+[17.043s] Invoked command in '/home/wilsonlo/dev_ws/build/dd_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/dd_bot

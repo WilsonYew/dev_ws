@@ -1,0 +1,8 @@
+[0.025s] Invoking command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[0.075s] failed to create symbolic link '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs/ament_cmake_python/serial_motor_demo_msgs/serial_motor_demo_msgs' because existing path cannot be removed: Is a directory
+[0.076s] [  1%] Built target serial_motor_demo_msgs__rosidl_generator_type_description
+[0.076s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_serial_motor_demo_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_serial_motor_demo_msgs] Error 1
+[0.077s] gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_serial_motor_demo_msgs.dir/all] Error 2
+[0.077s] gmake[1]: *** Waiting for unfinished jobs....
+[0.077s] gmake: *** [Makefile:146: all] Error 2
+[0.084s] Invoked command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs -- -j8 -l8

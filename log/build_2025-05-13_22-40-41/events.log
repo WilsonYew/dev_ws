@@ -1,0 +1,1146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000556] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.000614] (dd_bot) JobQueued: {'identifier': 'dd_bot', 'dependencies': OrderedDict()}
+[0.000634] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000648] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.000661] (urdf_example) JobQueued: {'identifier': 'urdf_example', 'dependencies': OrderedDict()}
+[0.000673] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict({'serial_motor_demo_msgs': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs'})}
+[0.000690] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.006712] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.011176] (dd_bot) JobStarted: {'identifier': 'dd_bot'}
+[0.015632] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.020149] (urdf_example) JobStarted: {'identifier': 'urdf_example'}
+[0.026764] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.027336] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/wilsonlo/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs'], 'cwd': '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wilsonlo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wilsonlo', 'OLDPWD': '/home/wilsonlo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2861', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/wilsonlo/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wilsonlo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wilsonlo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wilsonlo-Predator-PH315-53:@/tmp/.ICE-unix/2821,unix/wilsonlo-Predator-PH315-53:/tmp/.ICE-unix/2821', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1aae6b4_2aaa_432f_b537_21a2497bdbaa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.029387] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.029884] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[0.030585] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wilsonlo/dev_ws/build/articubot_one', '--', '-j8', '-l8'], 'cwd': '/home/wilsonlo/dev_ws/build/articubot_one', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wilsonlo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wilsonlo', 'OLDPWD': '/home/wilsonlo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2861', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/wilsonlo/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wilsonlo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wilsonlo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wilsonlo-Predator-PH315-53:@/tmp/.ICE-unix/2821,unix/wilsonlo-Predator-PH315-53:/tmp/.ICE-unix/2821', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1aae6b4_2aaa_432f_b537_21a2497bdbaa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wilsonlo/dev_ws/build/articubot_one', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.031526] (dd_bot) JobProgress: {'identifier': 'dd_bot', 'progress': 'cmake'}
+[0.032000] (dd_bot) JobProgress: {'identifier': 'dd_bot', 'progress': 'build'}
+[0.032462] (dd_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wilsonlo/dev_ws/build/dd_bot', '--', '-j8', '-l8'], 'cwd': '/home/wilsonlo/dev_ws/build/dd_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wilsonlo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wilsonlo', 'OLDPWD': '/home/wilsonlo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2861', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/wilsonlo/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wilsonlo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wilsonlo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wilsonlo-Predator-PH315-53:@/tmp/.ICE-unix/2821,unix/wilsonlo-Predator-PH315-53:/tmp/.ICE-unix/2821', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1aae6b4_2aaa_432f_b537_21a2497bdbaa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wilsonlo/dev_ws/build/dd_bot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.034375] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.034795] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.035293] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wilsonlo/dev_ws/build/my_package', '--', '-j8', '-l8'], 'cwd': '/home/wilsonlo/dev_ws/build/my_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wilsonlo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wilsonlo', 'OLDPWD': '/home/wilsonlo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2861', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/wilsonlo/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wilsonlo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wilsonlo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wilsonlo-Predator-PH315-53:@/tmp/.ICE-unix/2821,unix/wilsonlo-Predator-PH315-53:/tmp/.ICE-unix/2821', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1aae6b4_2aaa_432f_b537_21a2497bdbaa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wilsonlo/dev_ws/build/my_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.040030] (urdf_example) JobProgress: {'identifier': 'urdf_example', 'progress': 'cmake'}
+[0.040525] (urdf_example) JobProgress: {'identifier': 'urdf_example', 'progress': 'build'}
+[0.040983] (urdf_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wilsonlo/dev_ws/build/urdf_example', '--', '-j8', '-l8'], 'cwd': '/home/wilsonlo/dev_ws/build/urdf_example', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wilsonlo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wilsonlo', 'OLDPWD': '/home/wilsonlo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2861', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/wilsonlo/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wilsonlo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wilsonlo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wilsonlo-Predator-PH315-53:@/tmp/.ICE-unix/2821,unix/wilsonlo-Predator-PH315-53:/tmp/.ICE-unix/2821', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1aae6b4_2aaa_432f_b537_21a2497bdbaa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wilsonlo/dev_ws/build/urdf_example', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.074307] (articubot_one) CommandEnded: {'returncode': 0}
+[0.075014] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[0.083814] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wilsonlo/dev_ws/build/articubot_one'], 'cwd': '/home/wilsonlo/dev_ws/build/articubot_one', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wilsonlo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wilsonlo', 'OLDPWD': '/home/wilsonlo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2861', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/wilsonlo/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wilsonlo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wilsonlo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wilsonlo-Predator-PH315-53:@/tmp/.ICE-unix/2821,unix/wilsonlo-Predator-PH315-53:/tmp/.ICE-unix/2821', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1aae6b4_2aaa_432f_b537_21a2497bdbaa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wilsonlo/dev_ws/build/articubot_one', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.085378] (dd_bot) CommandEnded: {'returncode': 0}
+[0.085985] (dd_bot) JobProgress: {'identifier': 'dd_bot', 'progress': 'install'}
+[0.086389] (dd_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wilsonlo/dev_ws/build/dd_bot'], 'cwd': '/home/wilsonlo/dev_ws/build/dd_bot', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wilsonlo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wilsonlo', 'OLDPWD': '/home/wilsonlo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2861', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/wilsonlo/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wilsonlo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wilsonlo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wilsonlo-Predator-PH315-53:@/tmp/.ICE-unix/2821,unix/wilsonlo-Predator-PH315-53:/tmp/.ICE-unix/2821', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1aae6b4_2aaa_432f_b537_21a2497bdbaa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wilsonlo/dev_ws/build/dd_bot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.087245] (my_package) CommandEnded: {'returncode': 0}
+[0.087785] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[0.088184] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wilsonlo/dev_ws/build/my_package'], 'cwd': '/home/wilsonlo/dev_ws/build/my_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wilsonlo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wilsonlo', 'OLDPWD': '/home/wilsonlo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2861', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/wilsonlo/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wilsonlo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wilsonlo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wilsonlo-Predator-PH315-53:@/tmp/.ICE-unix/2821,unix/wilsonlo-Predator-PH315-53:/tmp/.ICE-unix/2821', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1aae6b4_2aaa_432f_b537_21a2497bdbaa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wilsonlo/dev_ws/build/my_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.088765] (urdf_example) CommandEnded: {'returncode': 0}
+[0.089255] (urdf_example) JobProgress: {'identifier': 'urdf_example', 'progress': 'install'}
+[0.089661] (urdf_example) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wilsonlo/dev_ws/build/urdf_example'], 'cwd': '/home/wilsonlo/dev_ws/build/urdf_example', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wilsonlo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wilsonlo', 'OLDPWD': '/home/wilsonlo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2861', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/wilsonlo/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wilsonlo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wilsonlo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wilsonlo-Predator-PH315-53:@/tmp/.ICE-unix/2821,unix/wilsonlo-Predator-PH315-53:/tmp/.ICE-unix/2821', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1aae6b4_2aaa_432f_b537_21a2497bdbaa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wilsonlo/dev_ws/build/urdf_example', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[0.093054] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.093633] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.094015] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[0.094131] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[0.094255] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[0.094366] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[0.094484] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[0.094596] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/gz_bridge.yaml\n'}
+[0.094707] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[0.094825] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[0.094940] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[0.095055] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[0.095169] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[0.095304] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[0.095486] (dd_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.095646] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[0.095770] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[0.095920] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[0.096058] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[0.096251] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[0.096410] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[0.096581] (dd_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.096781] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/empty.yaml\n'}
+[0.096936] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[0.097050] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[0.097169] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[0.097287] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/gz_bridge.yaml\n'}
+[0.097414] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/joystick.yaml\n'}
+[0.097600] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[0.097857] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/my_controllers.yaml\n'}
+[0.098017] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[0.098150] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[0.098279] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/camera.launch.py\n'}
+[0.098402] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[0.098685] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[0.098850] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[0.098987] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/twist_mux.yaml\n'}
+[0.099131] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/view_bot.rviz\n'}
+[0.099264] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/camera.xacro\n'}
+[0.099399] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[0.099687] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/depth_camera.xacro\n'}
+[0.099809] (-) TimerEvent: {}
+[0.099994] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.100256] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[0.100383] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[0.100518] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[0.100804] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[0.100945] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[0.101087] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[0.101222] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/gazebo_control.xacro\n'}
+[0.101483] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/inertial_macros.xacro\n'}
+[0.101615] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/lidar.xacro\n'}
+[0.101726] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/robot.urdf.xacro\n'}
+[0.101817] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/robot_core.xacro\n'}
+[0.101903] (my_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.101995] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/launch/listener.launch.py\n'}
+[0.102090] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/launch/talker.launch.py\n'}
+[0.102180] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/ros2_control.xacro\n'}
+[0.102270] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/stereo_camera.xacro\n'}
+[0.102367] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/joystick.launch.py\n'}
+[0.102473] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[0.102724] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[0.102811] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[0.102930] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[0.103020] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[0.103118] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/launch_sim.launch.py\n'}
+[0.103245] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[0.103356] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[0.103479] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[0.103596] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[0.103705] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[0.103816] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[0.103920] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/rplidar.launch.py\n'}
+[0.104027] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[0.104131] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/rsp.launch.py\n'}
+[0.104412] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/stereo_image_proc.launch.py\n'}
+[0.104707] (urdf_example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.104870] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/worlds/empty.world\n'}
+[0.104983] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[0.105099] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[0.105210] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/worlds/forest.world\n'}
+[0.105324] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/worlds/obstacles.world\n'}
+[0.105462] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/ament_index/resource_index/package_run_dependencies/dd_bot\n'}
+[0.105591] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[0.105724] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[0.105840] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[0.105963] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.dsv\n'}
+[0.106080] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[0.106194] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[0.106306] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[0.106419] (my_package) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/my_package/share/my_package/package.dsv\n'}
+[0.106600] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/ament_index/resource_index/parent_prefix_path/dd_bot\n'}
+[0.106723] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/ament_prefix_path.sh\n'}
+[0.106836] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/ament_prefix_path.dsv\n'}
+[0.106949] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/path.sh\n'}
+[0.107059] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/path.dsv\n'}
+[0.107183] (urdf_example) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.107311] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/description/example_gazebo.xacro\n'}
+[0.107433] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/description/example_include.xacro\n'}
+[0.107562] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/description/example_robot.urdf.xacro\n'}
+[0.107667] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/launch/rsp.launch.py\n'}
+[0.107785] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/launch/rsp_sim.launch.py\n'}
+[0.107904] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.bash\n'}
+[0.108036] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/worlds/test_world.world\n'}
+[0.108149] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/ament_index/resource_index/package_run_dependencies/urdf_example\n'}
+[0.108262] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/ament_index/resource_index/parent_prefix_path/urdf_example\n'}
+[0.108374] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/environment/ament_prefix_path.sh\n'}
+[0.108508] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/environment/ament_prefix_path.dsv\n'}
+[0.108624] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/environment/path.sh\n'}
+[0.108734] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/environment/path.dsv\n'}
+[0.108851] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.sh\n'}
+[0.108976] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.zsh\n'}
+[0.109096] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.dsv\n'}
+[0.109219] (dd_bot) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.dsv\n'}
+[0.109355] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/local_setup.bash\n'}
+[0.109497] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/local_setup.sh\n'}
+[0.109615] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/local_setup.zsh\n'}
+[0.109728] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/local_setup.dsv\n'}
+[0.109839] (urdf_example) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.dsv\n'}
+[0.113516] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[0.113768] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[0.113885] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[0.113998] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/package.xml\n'}
+[0.114305] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[0.114580] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[0.114748] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[0.114872] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/package.xml\n'}
+[0.116066] (articubot_one) CommandEnded: {'returncode': 0}
+[0.117466] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/ament_index/resource_index/packages/dd_bot\n'}
+[0.117794] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/cmake/dd_botConfig.cmake\n'}
+[0.118231] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/cmake/dd_botConfig-version.cmake\n'}
+[0.118347] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/ament_index/resource_index/packages/urdf_example\n'}
+[0.118852] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig.cmake\n'}
+[0.118996] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig-version.cmake\n'}
+[0.119108] (urdf_example) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/urdf_example/share/urdf_example/package.xml\n'}
+[0.119219] (dd_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.xml\n'}
+[0.140181] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[0.141349] (my_package) CommandEnded: {'returncode': 0}
+[0.199908] (-) TimerEvent: {}
+[0.300175] (-) TimerEvent: {}
+[0.400452] (-) TimerEvent: {}
+[0.500668] (-) TimerEvent: {}
+[0.600884] (-) TimerEvent: {}
+[0.701104] (-) TimerEvent: {}
+[0.801360] (-) TimerEvent: {}
+[0.901613] (-) TimerEvent: {}
+[1.001894] (-) TimerEvent: {}
+[1.040502] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[1.041539] (dd_bot) CommandEnded: {'returncode': 0}
+[1.101982] (-) TimerEvent: {}
+[1.202187] (-) TimerEvent: {}
+[1.302406] (-) TimerEvent: {}
+[1.402653] (-) TimerEvent: {}
+[1.502875] (-) TimerEvent: {}
+[1.537469] (dd_bot) JobEnded: {'identifier': 'dd_bot', 'rc': 0}
+[1.539770] (urdf_example) CommandEnded: {'returncode': 0}
+[1.555789] (urdf_example) JobEnded: {'identifier': 'urdf_example', 'rc': 0}
+[1.602967] (-) TimerEvent: {}
+[1.703201] (-) TimerEvent: {}
+[1.803416] (-) TimerEvent: {}
+[1.903652] (-) TimerEvent: {}
+[2.003858] (-) TimerEvent: {}
+[2.104140] (-) TimerEvent: {}
+[2.204350] (-) TimerEvent: {}
+[2.304582] (-) TimerEvent: {}
+[2.404794] (-) TimerEvent: {}
+[2.505008] (-) TimerEvent: {}
+[2.605227] (-) TimerEvent: {}
+[2.705441] (-) TimerEvent: {}
+[2.805648] (-) TimerEvent: {}
+[2.905859] (-) TimerEvent: {}
+[3.006064] (-) TimerEvent: {}
+[3.106276] (-) TimerEvent: {}
+[3.206468] (-) TimerEvent: {}
+[3.306675] (-) TimerEvent: {}
+[3.406891] (-) TimerEvent: {}
+[3.507089] (-) TimerEvent: {}
+[3.607289] (-) TimerEvent: {}
+[3.707470] (-) TimerEvent: {}
+[3.807682] (-) TimerEvent: {}
+[3.907883] (-) TimerEvent: {}
+[4.008092] (-) TimerEvent: {}
+[4.108297] (-) TimerEvent: {}
+[4.208468] (-) TimerEvent: {}
+[4.308678] (-) TimerEvent: {}
+[4.408885] (-) TimerEvent: {}
+[4.509154] (-) TimerEvent: {}
+[4.609368] (-) TimerEvent: {}
+[4.709582] (-) TimerEvent: {}
+[4.809782] (-) TimerEvent: {}
+[4.909995] (-) TimerEvent: {}
+[5.010236] (-) TimerEvent: {}
+[5.110445] (-) TimerEvent: {}
+[5.210663] (-) TimerEvent: {}
+[5.310868] (-) TimerEvent: {}
+[5.411070] (-) TimerEvent: {}
+[5.511281] (-) TimerEvent: {}
+[5.611476] (-) TimerEvent: {}
+[5.711723] (-) TimerEvent: {}
+[5.811939] (-) TimerEvent: {}
+[5.912179] (-) TimerEvent: {}
+[6.012384] (-) TimerEvent: {}
+[6.112616] (-) TimerEvent: {}
+[6.212829] (-) TimerEvent: {}
+[6.313054] (-) TimerEvent: {}
+[6.413272] (-) TimerEvent: {}
+[6.513479] (-) TimerEvent: {}
+[6.613711] (-) TimerEvent: {}
+[6.713961] (-) TimerEvent: {}
+[6.739930] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[6.814049] (-) TimerEvent: {}
+[6.914271] (-) TimerEvent: {}
+[7.014479] (-) TimerEvent: {}
+[7.114719] (-) TimerEvent: {}
+[7.214927] (-) TimerEvent: {}
+[7.315170] (-) TimerEvent: {}
+[7.415380] (-) TimerEvent: {}
+[7.515602] (-) TimerEvent: {}
+[7.615805] (-) TimerEvent: {}
+[7.716067] (-) TimerEvent: {}
+[7.816268] (-) TimerEvent: {}
+[7.916536] (-) TimerEvent: {}
+[8.016738] (-) TimerEvent: {}
+[8.116945] (-) TimerEvent: {}
+[8.217146] (-) TimerEvent: {}
+[8.317352] (-) TimerEvent: {}
+[8.417565] (-) TimerEvent: {}
+[8.517769] (-) TimerEvent: {}
+[8.617978] (-) TimerEvent: {}
+[8.718193] (-) TimerEvent: {}
+[8.818410] (-) TimerEvent: {}
+[8.918670] (-) TimerEvent: {}
+[9.018928] (-) TimerEvent: {}
+[9.119157] (-) TimerEvent: {}
+[9.219408] (-) TimerEvent: {}
+[9.319622] (-) TimerEvent: {}
+[9.419823] (-) TimerEvent: {}
+[9.520066] (-) TimerEvent: {}
+[9.620265] (-) TimerEvent: {}
+[9.720465] (-) TimerEvent: {}
+[9.820667] (-) TimerEvent: {}
+[9.920872] (-) TimerEvent: {}
+[10.021046] (-) TimerEvent: {}
+[10.121252] (-) TimerEvent: {}
+[10.221464] (-) TimerEvent: {}
+[10.321671] (-) TimerEvent: {}
+[10.421876] (-) TimerEvent: {}
+[10.522120] (-) TimerEvent: {}
+[10.622328] (-) TimerEvent: {}
+[10.722549] (-) TimerEvent: {}
+[10.822760] (-) TimerEvent: {}
+[10.922999] (-) TimerEvent: {}
+[11.023208] (-) TimerEvent: {}
+[11.045173] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[11.123306] (-) TimerEvent: {}
+[11.223554] (-) TimerEvent: {}
+[11.323753] (-) TimerEvent: {}
+[11.353437] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[11.423842] (-) TimerEvent: {}
+[11.502311] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.511695] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[11.512270] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.512955] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.521475] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[11.523921] (-) TimerEvent: {}
+[11.624141] (-) TimerEvent: {}
+[11.724344] (-) TimerEvent: {}
+[11.815059] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[11.824410] (-) TimerEvent: {}
+[11.824607] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[11.824875] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[11.825353] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[11.924469] (-) TimerEvent: {}
+[12.024676] (-) TimerEvent: {}
+[12.124888] (-) TimerEvent: {}
+[12.225090] (-) TimerEvent: {}
+[12.325326] (-) TimerEvent: {}
+[12.425540] (-) TimerEvent: {}
+[12.525763] (-) TimerEvent: {}
+[12.609758] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[12.625835] (-) TimerEvent: {}
+[12.726024] (-) TimerEvent: {}
+[12.770511] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[12.826105] (-) TimerEvent: {}
+[12.851358] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[12.926196] (-) TimerEvent: {}
+[13.026447] (-) TimerEvent: {}
+[13.126650] (-) TimerEvent: {}
+[13.226863] (-) TimerEvent: {}
+[13.286280] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[13.326951] (-) TimerEvent: {}
+[13.410527] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[13.419839] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.427019] (-) TimerEvent: {}
+[13.490559] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.527112] (-) TimerEvent: {}
+[13.548466] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[13.627191] (-) TimerEvent: {}
+[13.727383] (-) TimerEvent: {}
+[13.827590] (-) TimerEvent: {}
+[13.927820] (-) TimerEvent: {}
+[14.022527] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[14.027889] (-) TimerEvent: {}
+[14.128058] (-) TimerEvent: {}
+[14.228249] (-) TimerEvent: {}
+[14.328465] (-) TimerEvent: {}
+[14.428682] (-) TimerEvent: {}
+[14.456747] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.528749] (-) TimerEvent: {}
+[14.628946] (-) TimerEvent: {}
+[14.729154] (-) TimerEvent: {}
+[14.829376] (-) TimerEvent: {}
+[14.929583] (-) TimerEvent: {}
+[15.028797] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.029655] (-) TimerEvent: {}
+[15.033545] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[15.129748] (-) TimerEvent: {}
+[15.166320] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[15.229835] (-) TimerEvent: {}
+[15.330088] (-) TimerEvent: {}
+[15.430343] (-) TimerEvent: {}
+[15.530603] (-) TimerEvent: {}
+[15.630866] (-) TimerEvent: {}
+[15.731129] (-) TimerEvent: {}
+[15.831494] (-) TimerEvent: {}
+[15.931804] (-) TimerEvent: {}
+[16.032009] (-) TimerEvent: {}
+[16.132212] (-) TimerEvent: {}
+[16.232414] (-) TimerEvent: {}
+[16.332624] (-) TimerEvent: {}
+[16.432829] (-) TimerEvent: {}
+[16.533034] (-) TimerEvent: {}
+[16.633237] (-) TimerEvent: {}
+[16.733448] (-) TimerEvent: {}
+[16.833651] (-) TimerEvent: {}
+[16.873937] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[16.910400] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[16.912306] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.913602] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.920009] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Configuring done (16.9s)\n'}
+[16.933747] (-) TimerEvent: {}
+[16.953986] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[16.967283] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs\n'}
+[16.975901] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[16.976971] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[16.977023] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs', '--', '-j8', '-l8'], 'cwd': '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wilsonlo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wilsonlo', 'OLDPWD': '/home/wilsonlo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2861', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/wilsonlo/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wilsonlo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wilsonlo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wilsonlo-Predator-PH315-53:@/tmp/.ICE-unix/2821,unix/wilsonlo-Predator-PH315-53:/tmp/.ICE-unix/2821', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1aae6b4_2aaa_432f_b537_21a2497bdbaa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[17.030744] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[17.033830] (-) TimerEvent: {}
+[17.039505] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_serial_motor_demo_msgs\n'}
+[17.133909] (-) TimerEvent: {}
+[17.234103] (-) TimerEvent: {}
+[17.334298] (-) TimerEvent: {}
+[17.434516] (-) TimerEvent: {}
+[17.534717] (-) TimerEvent: {}
+[17.634962] (-) TimerEvent: {}
+[17.735166] (-) TimerEvent: {}
+[17.835372] (-) TimerEvent: {}
+[17.935589] (-) TimerEvent: {}
+[18.035836] (-) TimerEvent: {}
+[18.136045] (-) TimerEvent: {}
+[18.236259] (-) TimerEvent: {}
+[18.336462] (-) TimerEvent: {}
+[18.436656] (-) TimerEvent: {}
+[18.536845] (-) TimerEvent: {}
+[18.637037] (-) TimerEvent: {}
+[18.652858] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  1%] Built target serial_motor_demo_msgs__rosidl_generator_type_description\n'}
+[18.662268] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[18.672055] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[18.737120] (-) TimerEvent: {}
+[18.837320] (-) TimerEvent: {}
+[18.937542] (-) TimerEvent: {}
+[19.037790] (-) TimerEvent: {}
+[19.082754] (serial_motor_demo_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[19.083679] (serial_motor_demo_msgs) StdoutLine: {'line': b'creating serial_motor_demo_msgs.egg-info\n'}
+[19.110008] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing serial_motor_demo_msgs.egg-info/PKG-INFO\n'}
+[19.110262] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt\n'}
+[19.110470] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt\n'}
+[19.110634] (serial_motor_demo_msgs) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[19.137866] (-) TimerEvent: {}
+[19.238063] (-) TimerEvent: {}
+[19.338284] (-) TimerEvent: {}
+[19.438560] (-) TimerEvent: {}
+[19.538757] (-) TimerEvent: {}
+[19.567451] (serial_motor_demo_msgs) StdoutLine: {'line': b"reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[19.567946] (serial_motor_demo_msgs) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[19.593462] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg\n'}
+[19.638861] (-) TimerEvent: {}
+[19.693253] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o\x1b[0m\n'}
+[19.693503] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__description.c.o\x1b[0m\n'}
+[19.693634] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__description.c.o\x1b[0m\n'}
+[19.693805] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[19.693922] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__description.c.o\x1b[0m\n'}
+[19.694432] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o\x1b[0m\n'}
+[19.694646] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o\x1b[0m\n'}
+[19.739007] (-) TimerEvent: {}
+[19.839218] (-) TimerEvent: {}
+[19.939417] (-) TimerEvent: {}
+[20.043613] (-) TimerEvent: {}
+[20.143925] (-) TimerEvent: {}
+[20.144985] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 18%] Built target serial_motor_demo_msgs__cpp\n'}
+[20.153716] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o\x1b[0m\n'}
+[20.244008] (-) TimerEvent: {}
+[20.344220] (-) TimerEvent: {}
+[20.444499] (-) TimerEvent: {}
+[20.544713] (-) TimerEvent: {}
+[20.644930] (-) TimerEvent: {}
+[20.745153] (-) TimerEvent: {}
+[20.845365] (-) TimerEvent: {}
+[20.945596] (-) TimerEvent: {}
+[21.045809] (-) TimerEvent: {}
+[21.146019] (-) TimerEvent: {}
+[21.246233] (-) TimerEvent: {}
+[21.346465] (-) TimerEvent: {}
+[21.446682] (-) TimerEvent: {}
+[21.546942] (-) TimerEvent: {}
+[21.647155] (-) TimerEvent: {}
+[21.747871] (-) TimerEvent: {}
+[21.848112] (-) TimerEvent: {}
+[21.948511] (-) TimerEvent: {}
+[22.042264] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o\x1b[0m\n'}
+[22.048595] (-) TimerEvent: {}
+[22.148808] (-) TimerEvent: {}
+[22.249013] (-) TimerEvent: {}
+[22.349233] (-) TimerEvent: {}
+[22.449459] (-) TimerEvent: {}
+[22.515142] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[22.549563] (-) TimerEvent: {}
+[22.561095] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 24%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[22.572502] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[22.572809] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[22.573408] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[22.573896] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[22.574104] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[22.575292] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[22.649650] (-) TimerEvent: {}
+[22.749858] (-) TimerEvent: {}
+[22.850099] (-) TimerEvent: {}
+[22.950314] (-) TimerEvent: {}
+[23.012691] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[23.012918] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o\x1b[0m\n'}
+[23.013040] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o\x1b[0m\n'}
+[23.050405] (-) TimerEvent: {}
+[23.077870] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[23.087169] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[23.100540] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o\x1b[0m\n'}
+[23.150467] (-) TimerEvent: {}
+[23.211802] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[23.217303] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[23.218984] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[23.250562] (-) TimerEvent: {}
+[23.251702] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 51%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[23.261449] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[23.281086] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o\x1b[0m\n'}
+[23.350648] (-) TimerEvent: {}
+[23.362482] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o\x1b[0m\n'}
+[23.450735] (-) TimerEvent: {}
+[23.550937] (-) TimerEvent: {}
+[23.651145] (-) TimerEvent: {}
+[23.751409] (-) TimerEvent: {}
+[23.776020] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[23.822715] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[23.851466] (-) TimerEvent: {}
+[23.859307] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[23.895591] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 62%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[23.905901] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o\x1b[0m\n'}
+[23.951552] (-) TimerEvent: {}
+[24.051769] (-) TimerEvent: {}
+[24.151976] (-) TimerEvent: {}
+[24.252182] (-) TimerEvent: {}
+[24.352383] (-) TimerEvent: {}
+[24.452602] (-) TimerEvent: {}
+[24.552823] (-) TimerEvent: {}
+[24.653045] (-) TimerEvent: {}
+[24.753274] (-) TimerEvent: {}
+[24.853467] (-) TimerEvent: {}
+[24.953737] (-) TimerEvent: {}
+[25.054208] (-) TimerEvent: {}
+[25.154711] (-) TimerEvent: {}
+[25.255238] (-) TimerEvent: {}
+[25.355499] (-) TimerEvent: {}
+[25.456813] (-) TimerEvent: {}
+[25.557239] (-) TimerEvent: {}
+[25.657578] (-) TimerEvent: {}
+[25.758838] (-) TimerEvent: {}
+[25.859416] (-) TimerEvent: {}
+[25.887880] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o\x1b[0m\n'}
+[25.934007] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[25.959471] (-) TimerEvent: {}
+[26.057553] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[26.057865] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[26.059571] (-) TimerEvent: {}
+[26.060953] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[26.126556] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 74%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[26.159673] (-) TimerEvent: {}
+[26.259969] (-) TimerEvent: {}
+[26.360261] (-) TimerEvent: {}
+[26.410387] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[26.458862] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 75%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[26.460342] (-) TimerEvent: {}
+[26.558933] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[26.560446] (-) TimerEvent: {}
+[26.602521] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[26.610403] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[26.646573] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[26.660551] (-) TimerEvent: {}
+[26.665772] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 79%] Built target serial_motor_demo_msgs\n'}
+[26.685342] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[26.760627] (-) TimerEvent: {}
+[26.860815] (-) TimerEvent: {}
+[26.961000] (-) TimerEvent: {}
+[27.061195] (-) TimerEvent: {}
+[27.161381] (-) TimerEvent: {}
+[27.261541] (-) TimerEvent: {}
+[27.331027] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 81%] Built target serial_motor_demo_msgs__py\n'}
+[27.349483] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o\x1b[0m\n'}
+[27.349741] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o\x1b[0m\n'}
+[27.349894] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o\x1b[0m\n'}
+[27.361630] (-) TimerEvent: {}
+[27.461846] (-) TimerEvent: {}
+[27.562076] (-) TimerEvent: {}
+[27.662336] (-) TimerEvent: {}
+[27.762539] (-) TimerEvent: {}
+[27.862737] (-) TimerEvent: {}
+[27.962946] (-) TimerEvent: {}
+[28.063196] (-) TimerEvent: {}
+[28.163456] (-) TimerEvent: {}
+[28.263952] (-) TimerEvent: {}
+[28.364730] (-) TimerEvent: {}
+[28.465262] (-) TimerEvent: {}
+[28.565532] (-) TimerEvent: {}
+[28.665948] (-) TimerEvent: {}
+[28.766358] (-) TimerEvent: {}
+[28.867442] (-) TimerEvent: {}
+[28.967858] (-) TimerEvent: {}
+[29.068372] (-) TimerEvent: {}
+[29.168681] (-) TimerEvent: {}
+[29.268906] (-) TimerEvent: {}
+[29.369135] (-) TimerEvent: {}
+[29.469350] (-) TimerEvent: {}
+[29.569566] (-) TimerEvent: {}
+[29.669789] (-) TimerEvent: {}
+[29.770036] (-) TimerEvent: {}
+[29.832611] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[29.868314] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 88%] Built target serial_motor_demo_msgs__rosidl_generator_py\n'}
+[29.870126] (-) TimerEvent: {}
+[29.893004] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[29.893307] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[29.893418] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[29.970227] (-) TimerEvent: {}
+[30.021138] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[30.023110] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[30.054114] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 98%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c\n'}
+[30.054548] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 98%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_c\n'}
+[30.058461] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[30.070312] (-) TimerEvent: {}
+[30.087022] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[30.098024] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[30.098615] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'install'}
+[30.098954] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs'], 'cwd': '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wilsonlo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wilsonlo', 'OLDPWD': '/home/wilsonlo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2861', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/wilsonlo/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wilsonlo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wilsonlo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wilsonlo-Predator-PH315-53:@/tmp/.ICE-unix/2821,unix/wilsonlo-Predator-PH315-53:/tmp/.ICE-unix/2821', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1aae6b4_2aaa_432f_b537_21a2497bdbaa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy'}), 'shell': False}
+[30.106802] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.107356] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[30.107555] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs\n'}
+[30.116002] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.json\n'}
+[30.126482] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.json\n'}
+[30.135647] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.json\n'}
+[30.144097] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h\n'}
+[30.152118] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h\n'}
+[30.160385] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h\n'}
+[30.168743] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h\n'}
+[30.170378] (-) TimerEvent: {}
+[30.177168] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h\n'}
+[30.185272] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h\n'}
+[30.195806] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h\n'}
+[30.204172] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h\n'}
+[30.212439] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h\n'}
+[30.220639] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h\n'}
+[30.229420] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h\n'}
+[30.238968] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h\n'}
+[30.247136] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[30.255722] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh\n'}
+[30.263940] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv\n'}
+[30.270476] (-) TimerEvent: {}
+[30.273270] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h\n'}
+[30.281577] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[30.289835] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h\n'}
+[30.297991] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[30.306605] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h\n'}
+[30.314583] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[30.322854] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h\n'}
+[30.331403] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[30.340378] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp\n'}
+[30.348653] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp\n'}
+[30.356903] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp\n'}
+[30.364899] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp\n'}
+[30.370603] (-) TimerEvent: {}
+[30.376420] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp\n'}
+[30.385227] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp\n'}
+[30.393902] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp\n'}
+[30.402316] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp\n'}
+[30.410697] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp\n'}
+[30.418769] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp\n'}
+[30.427559] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp\n'}
+[30.437262] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp\n'}
+[30.445521] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp\n'}
+[30.453665] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp\n'}
+[30.461959] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp\n'}
+[30.470171] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[30.470665] (-) TimerEvent: {}
+[30.478978] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.487187] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.495359] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.503527] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[30.511814] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.520122] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.528743] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.537367] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh\n'}
+[30.545777] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv\n'}
+[30.554324] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[30.562880] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[30.570745] (-) TimerEvent: {}
+[30.571051] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[30.581481] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[30.590176] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/__init__.py\n'}
+[30.598769] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[30.606745] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[30.614795] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[30.622931] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/__init__.py\n'}
+[30.631840] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py\n'}
+[30.641313] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c\n'}
+[30.650174] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command.py\n'}
+[30.658394] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command_s.c\n'}
+[30.666769] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py\n'}
+[30.670838] (-) TimerEvent: {}
+[30.675477] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c\n'}
+[30.684083] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so\n'}
+[30.692795] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[30.701557] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[30.710102] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[30.710304] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[30.710647] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so\n'}
+[30.710788] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl\n'}
+[30.719324] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl\n'}
+[30.727835] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl\n'}
+[30.736492] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg\n'}
+[30.745013] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg\n'}
+[30.753387] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg\n'}
+[30.761577] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs\n'}
+[30.769690] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs\n'}
+[30.770912] (-) TimerEvent: {}
+[30.778217] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh\n'}
+[30.786629] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[30.795178] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh\n'}
+[30.803468] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv\n'}
+[30.811960] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash\n'}
+[30.820206] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh\n'}
+[30.828388] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh\n'}
+[30.839481] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv\n'}
+[30.848472] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv\n'}
+[30.856785] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs\n'}
+[30.865063] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[30.871031] (-) TimerEvent: {}
+[30.876016] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.885114] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.893763] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.901952] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.910135] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.918320] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.926653] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake\n'}
+[30.935578] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake\n'}
+[30.943913] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml\n'}
+[30.971109] (-) TimerEvent: {}
+[31.071359] (-) TimerEvent: {}
+[31.171573] (-) TimerEvent: {}
+[31.271783] (-) TimerEvent: {}
+[31.371995] (-) TimerEvent: {}
+[31.472299] (-) TimerEvent: {}
+[31.572468] (-) TimerEvent: {}
+[31.672679] (-) TimerEvent: {}
+[31.772919] (-) TimerEvent: {}
+[31.838982] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so\n'}
+[31.839475] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so" to ""\n'}
+[31.871654] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[31.872177] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[31.873015] (-) TimerEvent: {}
+[31.873675] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[31.874233] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[31.874981] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so\n'}
+[31.875479] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so" to ""\n'}
+[31.876779] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[31.877246] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[31.878098] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[31.878376] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[31.879230] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[31.879536] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[31.973092] (-) TimerEvent: {}
+[32.018453] (serial_motor_demo_msgs) StdoutLine: {'line': b"Listing '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs'...\n"}
+[32.018663] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/__init__.py'...\n"}
+[32.018786] (serial_motor_demo_msgs) StdoutLine: {'line': b"Listing '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg'...\n"}
+[32.018897] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/__init__.py'...\n"}
+[32.019002] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py'...\n"}
+[32.019108] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command.py'...\n"}
+[32.019213] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py'...\n"}
+[32.025346] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so\n'}
+[32.025603] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so" to ""\n'}
+[32.025926] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[32.026059] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[32.026318] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[32.026423] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[32.026786] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[32.026939] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[32.027179] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[32.027302] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[32.027650] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[32.027927] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[32.028056] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[32.028363] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[32.028488] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[32.028798] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[32.028914] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[32.029224] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake\n'}
+[32.029334] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[32.031165] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[32.049561] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 0}
+[32.050075] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[32.073181] (-) TimerEvent: {}
+[32.173416] (-) TimerEvent: {}
+[32.273658] (-) TimerEvent: {}
+[32.373893] (-) TimerEvent: {}
+[32.474114] (-) TimerEvent: {}
+[32.574359] (-) TimerEvent: {}
+[32.674627] (-) TimerEvent: {}
+[32.774894] (-) TimerEvent: {}
+[32.875174] (-) TimerEvent: {}
+[32.975719] (-) TimerEvent: {}
+[33.076215] (-) TimerEvent: {}
+[33.176766] (-) TimerEvent: {}
+[33.276964] (-) TimerEvent: {}
+[33.377160] (-) TimerEvent: {}
+[33.477415] (-) TimerEvent: {}
+[33.577626] (-) TimerEvent: {}
+[33.677821] (-) TimerEvent: {}
+[33.778048] (-) TimerEvent: {}
+[33.878247] (-) TimerEvent: {}
+[33.978465] (-) TimerEvent: {}
+[34.078718] (-) TimerEvent: {}
+[34.178969] (-) TimerEvent: {}
+[34.279175] (-) TimerEvent: {}
+[34.379422] (-) TimerEvent: {}
+[34.479644] (-) TimerEvent: {}
+[34.579840] (-) TimerEvent: {}
+[34.680049] (-) TimerEvent: {}
+[34.780246] (-) TimerEvent: {}
+[34.880456] (-) TimerEvent: {}
+[34.980686] (-) TimerEvent: {}
+[35.080905] (-) TimerEvent: {}
+[35.181181] (-) TimerEvent: {}
+[35.281440] (-) TimerEvent: {}
+[35.381656] (-) TimerEvent: {}
+[35.481890] (-) TimerEvent: {}
+[35.582253] (-) TimerEvent: {}
+[35.682834] (-) TimerEvent: {}
+[35.783134] (-) TimerEvent: {}
+[35.883389] (-) TimerEvent: {}
+[35.983662] (-) TimerEvent: {}
+[36.083900] (-) TimerEvent: {}
+[36.184244] (-) TimerEvent: {}
+[36.284653] (-) TimerEvent: {}
+[36.384866] (-) TimerEvent: {}
+[36.485064] (-) TimerEvent: {}
+[36.585273] (-) TimerEvent: {}
+[36.685530] (-) TimerEvent: {}
+[36.785739] (-) TimerEvent: {}
+[36.885947] (-) TimerEvent: {}
+[36.986164] (-) TimerEvent: {}
+[37.086375] (-) TimerEvent: {}
+[37.186594] (-) TimerEvent: {}
+[37.286806] (-) TimerEvent: {}
+[37.387019] (-) TimerEvent: {}
+[37.487229] (-) TimerEvent: {}
+[37.587482] (-) TimerEvent: {}
+[37.687813] (-) TimerEvent: {}
+[37.788182] (-) TimerEvent: {}
+[37.888460] (-) TimerEvent: {}
+[37.988709] (-) TimerEvent: {}
+[38.088968] (-) TimerEvent: {}
+[38.189244] (-) TimerEvent: {}
+[38.289524] (-) TimerEvent: {}
+[38.389896] (-) TimerEvent: {}
+[38.490235] (-) TimerEvent: {}
+[38.590446] (-) TimerEvent: {}
+[38.690658] (-) TimerEvent: {}
+[38.790865] (-) TimerEvent: {}
+[38.891088] (-) TimerEvent: {}
+[38.991337] (-) TimerEvent: {}
+[39.091557] (-) TimerEvent: {}
+[39.191794] (-) TimerEvent: {}
+[39.292007] (-) TimerEvent: {}
+[39.392215] (-) TimerEvent: {}
+[39.492422] (-) TimerEvent: {}
+[39.592647] (-) TimerEvent: {}
+[39.692900] (-) TimerEvent: {}
+[39.793113] (-) TimerEvent: {}
+[39.893321] (-) TimerEvent: {}
+[39.993542] (-) TimerEvent: {}
+[40.093755] (-) TimerEvent: {}
+[40.193985] (-) TimerEvent: {}
+[40.294250] (-) TimerEvent: {}
+[40.394467] (-) TimerEvent: {}
+[40.494674] (-) TimerEvent: {}
+[40.594871] (-) TimerEvent: {}
+[40.695054] (-) TimerEvent: {}
+[40.795256] (-) TimerEvent: {}
+[40.895455] (-) TimerEvent: {}
+[40.995650] (-) TimerEvent: {}
+[41.095839] (-) TimerEvent: {}
+[41.196026] (-) TimerEvent: {}
+[41.296216] (-) TimerEvent: {}
+[41.396405] (-) TimerEvent: {}
+[41.496601] (-) TimerEvent: {}
+[41.596793] (-) TimerEvent: {}
+[41.697018] (-) TimerEvent: {}
+[41.797295] (-) TimerEvent: {}
+[41.897485] (-) TimerEvent: {}
+[41.997715] (-) TimerEvent: {}
+[42.097922] (-) TimerEvent: {}
+[42.198135] (-) TimerEvent: {}
+[42.298339] (-) TimerEvent: {}
+[42.398562] (-) TimerEvent: {}
+[42.498798] (-) TimerEvent: {}
+[42.599014] (-) TimerEvent: {}
+[42.699237] (-) TimerEvent: {}
+[42.799455] (-) TimerEvent: {}
+[42.899685] (-) TimerEvent: {}
+[42.999908] (-) TimerEvent: {}
+[43.100126] (-) TimerEvent: {}
+[43.200334] (-) TimerEvent: {}
+[43.300546] (-) TimerEvent: {}
+[43.400760] (-) TimerEvent: {}
+[43.500959] (-) TimerEvent: {}
+[43.601162] (-) TimerEvent: {}
+[43.701357] (-) TimerEvent: {}
+[43.801562] (-) TimerEvent: {}
+[43.901794] (-) TimerEvent: {}
+[44.001990] (-) TimerEvent: {}
+[44.102188] (-) TimerEvent: {}
+[44.202395] (-) TimerEvent: {}
+[44.302623] (-) TimerEvent: {}
+[44.402828] (-) TimerEvent: {}
+[44.503040] (-) TimerEvent: {}
+[44.603245] (-) TimerEvent: {}
+[44.703492] (-) TimerEvent: {}
+[44.806777] (-) TimerEvent: {}
+[44.906976] (-) TimerEvent: {}
+[45.007179] (-) TimerEvent: {}
+[45.107534] (-) TimerEvent: {}
+[45.207787] (-) TimerEvent: {}
+[45.308005] (-) TimerEvent: {}
+[45.408268] (-) TimerEvent: {}
+[45.508546] (-) TimerEvent: {}
+[45.608761] (-) TimerEvent: {}
+[45.708962] (-) TimerEvent: {}
+[45.809164] (-) TimerEvent: {}
+[45.909382] (-) TimerEvent: {}
+[46.009624] (-) TimerEvent: {}
+[46.109882] (-) TimerEvent: {}
+[46.210088] (-) TimerEvent: {}
+[46.310317] (-) TimerEvent: {}
+[46.410528] (-) TimerEvent: {}
+[46.510736] (-) TimerEvent: {}
+[46.610938] (-) TimerEvent: {}
+[46.711149] (-) TimerEvent: {}
+[46.811444] (-) TimerEvent: {}
+[46.911651] (-) TimerEvent: {}
+[47.011864] (-) TimerEvent: {}
+[47.112097] (-) TimerEvent: {}
+[47.212358] (-) TimerEvent: {}
+[47.312630] (-) TimerEvent: {}
+[47.412899] (-) TimerEvent: {}
+[47.513142] (-) TimerEvent: {}
+[47.613464] (-) TimerEvent: {}
+[47.713864] (-) TimerEvent: {}
+[47.814076] (-) TimerEvent: {}
+[47.914326] (-) TimerEvent: {}
+[48.014667] (-) TimerEvent: {}
+[48.114881] (-) TimerEvent: {}
+[48.215182] (-) TimerEvent: {}
+[48.315470] (-) TimerEvent: {}
+[48.415684] (-) TimerEvent: {}
+[48.515891] (-) TimerEvent: {}
+[48.695704] (-) TimerEvent: {}
+[48.796002] (-) TimerEvent: {}
+[48.896223] (-) TimerEvent: {}
+[48.996518] (-) TimerEvent: {}
+[49.096728] (-) TimerEvent: {}
+[49.196975] (-) TimerEvent: {}
+[49.297259] (-) TimerEvent: {}
+[49.397747] (-) TimerEvent: {}
+[49.497962] (-) TimerEvent: {}
+[49.598190] (-) TimerEvent: {}
+[49.698405] (-) TimerEvent: {}
+[49.798679] (-) TimerEvent: {}
+[49.898944] (-) TimerEvent: {}
+[49.999164] (-) TimerEvent: {}
+[50.099391] (-) TimerEvent: {}
+[50.199617] (-) TimerEvent: {}
+[50.299820] (-) TimerEvent: {}
+[50.400017] (-) TimerEvent: {}
+[50.500220] (-) TimerEvent: {}
+[50.600421] (-) TimerEvent: {}
+[50.700627] (-) TimerEvent: {}
+[50.800784] (-) TimerEvent: {}
+[50.900984] (-) TimerEvent: {}
+[51.001184] (-) TimerEvent: {}
+[51.101392] (-) TimerEvent: {}
+[51.201644] (-) TimerEvent: {}
+[51.301845] (-) TimerEvent: {}
+[51.402040] (-) TimerEvent: {}
+[51.502239] (-) TimerEvent: {}
+[51.602434] (-) TimerEvent: {}
+[51.702633] (-) TimerEvent: {}
+[51.802836] (-) TimerEvent: {}
+[51.903024] (-) TimerEvent: {}
+[52.003215] (-) TimerEvent: {}
+[52.103408] (-) TimerEvent: {}
+[52.204260] (-) TimerEvent: {}
+[52.304465] (-) TimerEvent: {}
+[52.404671] (-) TimerEvent: {}
+[52.504889] (-) TimerEvent: {}
+[52.605114] (-) TimerEvent: {}
+[52.705305] (-) TimerEvent: {}
+[52.805475] (-) TimerEvent: {}
+[52.905811] (-) TimerEvent: {}
+[53.006289] (-) TimerEvent: {}
+[53.106523] (-) TimerEvent: {}
+[53.206721] (-) TimerEvent: {}
+[53.306918] (-) TimerEvent: {}
+[53.407167] (-) TimerEvent: {}
+[53.507430] (-) TimerEvent: {}
+[53.607628] (-) TimerEvent: {}
+[53.707863] (-) TimerEvent: {}
+[53.808065] (-) TimerEvent: {}
+[53.908269] (-) TimerEvent: {}
+[54.008469] (-) TimerEvent: {}
+[54.108671] (-) TimerEvent: {}
+[54.208897] (-) TimerEvent: {}
+[54.309119] (-) TimerEvent: {}
+[54.409477] (-) TimerEvent: {}
+[54.509827] (-) TimerEvent: {}
+[54.610021] (-) TimerEvent: {}
+[54.710221] (-) TimerEvent: {}
+[54.810410] (-) TimerEvent: {}
+[54.910618] (-) TimerEvent: {}
+[55.010813] (-) TimerEvent: {}
+[55.111008] (-) TimerEvent: {}
+[55.211213] (-) TimerEvent: {}
+[55.311409] (-) TimerEvent: {}
+[55.411606] (-) TimerEvent: {}
+[55.511803] (-) TimerEvent: {}
+[55.612011] (-) TimerEvent: {}
+[55.712234] (-) TimerEvent: {}
+[55.812446] (-) TimerEvent: {}
+[55.912652] (-) TimerEvent: {}
+[56.012852] (-) TimerEvent: {}
+[56.113054] (-) TimerEvent: {}
+[56.213257] (-) TimerEvent: {}
+[56.313465] (-) TimerEvent: {}
+[56.413677] (-) TimerEvent: {}
+[56.513909] (-) TimerEvent: {}
+[56.614136] (-) TimerEvent: {}
+[56.714383] (-) TimerEvent: {}
+[56.814588] (-) TimerEvent: {}
+[56.914780] (-) TimerEvent: {}
+[57.014986] (-) TimerEvent: {}
+[57.115207] (-) TimerEvent: {}
+[57.215439] (-) TimerEvent: {}
+[57.315643] (-) TimerEvent: {}
+[57.415844] (-) TimerEvent: {}
+[57.516135] (-) TimerEvent: {}
+[57.616348] (-) TimerEvent: {}
+[57.716585] (-) TimerEvent: {}
+[57.816795] (-) TimerEvent: {}
+[57.917014] (-) TimerEvent: {}
+[58.017246] (-) TimerEvent: {}
+[58.117520] (-) TimerEvent: {}
+[58.217736] (-) TimerEvent: {}
+[58.317966] (-) TimerEvent: {}
+[58.418171] (-) TimerEvent: {}
+[58.518448] (-) TimerEvent: {}
+[58.618639] (-) TimerEvent: {}
+[58.718854] (-) TimerEvent: {}
+[58.819067] (-) TimerEvent: {}
+[58.919315] (-) TimerEvent: {}
+[59.019532] (-) TimerEvent: {}
+[59.119733] (-) TimerEvent: {}
+[59.219933] (-) TimerEvent: {}
+[59.320125] (-) TimerEvent: {}
+[59.420324] (-) TimerEvent: {}
+[59.520518] (-) TimerEvent: {}
+[59.620706] (-) TimerEvent: {}
+[59.720893] (-) TimerEvent: {}
+[59.821082] (-) TimerEvent: {}
+[59.921273] (-) TimerEvent: {}
+[60.021461] (-) TimerEvent: {}
+[60.121642] (-) TimerEvent: {}
+[60.221837] (-) TimerEvent: {}
+[60.322033] (-) TimerEvent: {}
+[60.422260] (-) TimerEvent: {}
+[60.522456] (-) TimerEvent: {}
+[60.622654] (-) TimerEvent: {}
+[60.722845] (-) TimerEvent: {}
+[60.823044] (-) TimerEvent: {}
+[60.923242] (-) TimerEvent: {}
+[61.023467] (-) TimerEvent: {}
+[61.123701] (-) TimerEvent: {}
+[61.223887] (-) TimerEvent: {}
+[61.324083] (-) TimerEvent: {}
+[61.424278] (-) TimerEvent: {}
+[61.524461] (-) TimerEvent: {}
+[61.624642] (-) TimerEvent: {}
+[61.724827] (-) TimerEvent: {}
+[61.825019] (-) TimerEvent: {}
+[61.925207] (-) TimerEvent: {}
+[62.025481] (-) TimerEvent: {}
+[62.125673] (-) TimerEvent: {}
+[62.225877] (-) TimerEvent: {}
+[62.326104] (-) TimerEvent: {}
+[62.426293] (-) TimerEvent: {}
+[62.526457] (-) TimerEvent: {}
+[62.626642] (-) TimerEvent: {}
+[62.726837] (-) TimerEvent: {}
+[62.827046] (-) TimerEvent: {}
+[62.927255] (-) TimerEvent: {}
+[63.027508] (-) TimerEvent: {}
+[63.127707] (-) TimerEvent: {}
+[63.227938] (-) TimerEvent: {}
+[63.328124] (-) TimerEvent: {}
+[63.428315] (-) TimerEvent: {}
+[63.528560] (-) TimerEvent: {}
+[63.628763] (-) TimerEvent: {}
+[63.728969] (-) TimerEvent: {}
+[63.829198] (-) TimerEvent: {}
+[63.929397] (-) TimerEvent: {}
+[64.029643] (-) TimerEvent: {}
+[64.129942] (-) TimerEvent: {}
+[64.230208] (-) TimerEvent: {}
+[64.330450] (-) TimerEvent: {}
+[64.430748] (-) TimerEvent: {}
+[64.531080] (-) TimerEvent: {}
+[64.631522] (-) TimerEvent: {}
+[64.731897] (-) TimerEvent: {}
+[64.832099] (-) TimerEvent: {}
+[64.932289] (-) TimerEvent: {}
+[65.023969] (serial_motor_demo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/wilsonlo/dev_ws/build/serial_motor_demo/build', '--no-deps', 'symlink_data'], 'cwd': '/home/wilsonlo/dev_ws/build/serial_motor_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wilsonlo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/wilsonlo', 'OLDPWD': '/home/wilsonlo/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2861', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/wilsonlo/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'wilsonlo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wilsonlo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wilsonlo-Predator-PH315-53:@/tmp/.ICE-unix/2821,unix/wilsonlo-Predator-PH315-53:/tmp/.ICE-unix/2821', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b1aae6b4_2aaa_432f_b537_21a2497bdbaa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/wilsonlo/dev_ws/build/serial_motor_demo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wilsonlo/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs:/home/wilsonlo/dev_ws/install/urdf_example:/home/wilsonlo/dev_ws/install/my_package:/home/wilsonlo/dev_ws/install/dd_bot:/home/wilsonlo/dev_ws/install/articubot_one:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[65.032374] (-) TimerEvent: {}
+[65.132624] (-) TimerEvent: {}
+[65.161386] (serial_motor_demo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[65.161564] (serial_motor_demo) StderrLine: {'line': b'!!\n'}
+[65.161642] (serial_motor_demo) StderrLine: {'line': b'\n'}
+[65.161708] (serial_motor_demo) StderrLine: {'line': b'        ********************************************************************************\n'}
+[65.161771] (serial_motor_demo) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[65.161835] (serial_motor_demo) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[65.161902] (serial_motor_demo) StderrLine: {'line': b'\n'}
+[65.161970] (serial_motor_demo) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[65.162031] (serial_motor_demo) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[65.162100] (serial_motor_demo) StderrLine: {'line': b'\n'}
+[65.162160] (serial_motor_demo) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[65.162221] (serial_motor_demo) StderrLine: {'line': b'        ********************************************************************************\n'}
+[65.162280] (serial_motor_demo) StderrLine: {'line': b'\n'}
+[65.162340] (serial_motor_demo) StderrLine: {'line': b'!!\n'}
+[65.162399] (serial_motor_demo) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[65.232699] (-) TimerEvent: {}
+[65.332914] (-) TimerEvent: {}
+[65.433191] (-) TimerEvent: {}
+[65.442556] (serial_motor_demo) StdoutLine: {'line': b'running develop\n'}
+[65.533304] (-) TimerEvent: {}
+[65.633625] (-) TimerEvent: {}
+[65.733847] (-) TimerEvent: {}
+[65.834074] (-) TimerEvent: {}
+[65.934279] (-) TimerEvent: {}
+[66.034485] (-) TimerEvent: {}
+[66.134757] (-) TimerEvent: {}
+[66.235003] (-) TimerEvent: {}
+[66.335204] (-) TimerEvent: {}
+[66.435401] (-) TimerEvent: {}
+[66.535615] (-) TimerEvent: {}
+[66.552640] (serial_motor_demo) StdoutLine: {'line': b'running egg_info\n'}
+[66.552876] (serial_motor_demo) StdoutLine: {'line': b'creating serial_motor_demo.egg-info\n'}
+[66.582011] (serial_motor_demo) StdoutLine: {'line': b'writing serial_motor_demo.egg-info/PKG-INFO\n'}
+[66.582233] (serial_motor_demo) StdoutLine: {'line': b'writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt\n'}
+[66.582388] (serial_motor_demo) StdoutLine: {'line': b'writing entry points to serial_motor_demo.egg-info/entry_points.txt\n'}
+[66.582527] (serial_motor_demo) StdoutLine: {'line': b'writing requirements to serial_motor_demo.egg-info/requires.txt\n'}
+[66.582666] (serial_motor_demo) StdoutLine: {'line': b'writing top-level names to serial_motor_demo.egg-info/top_level.txt\n'}
+[66.582805] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[66.632470] (serial_motor_demo) StdoutLine: {'line': b"reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[66.633006] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[66.635695] (-) TimerEvent: {}
+[66.659645] (serial_motor_demo) StdoutLine: {'line': b'running build_ext\n'}
+[66.659805] (serial_motor_demo) StdoutLine: {'line': b'Creating /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial-motor-demo.egg-link (link to .)\n'}
+[66.660310] (serial_motor_demo) StdoutLine: {'line': b'Installing driver script to /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[66.660497] (serial_motor_demo) StdoutLine: {'line': b'Installing gui script to /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[66.660691] (serial_motor_demo) StdoutLine: {'line': b'\n'}
+[66.660762] (serial_motor_demo) StdoutLine: {'line': b'Installed /home/wilsonlo/dev_ws/build/serial_motor_demo\n'}
+[66.660853] (serial_motor_demo) StdoutLine: {'line': b'running symlink_data\n'}
+[66.660991] (serial_motor_demo) StdoutLine: {'line': b'symbolically linking /home/wilsonlo/dev_ws/build/serial_motor_demo/resource/serial_motor_demo -> /home/wilsonlo/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages\n'}
+[66.661138] (serial_motor_demo) StderrLine: {'line': b"error: [Errno 17] File exists: '/home/wilsonlo/dev_ws/build/serial_motor_demo/resource/serial_motor_demo' -> '/home/wilsonlo/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages/serial_motor_demo'\n"}
+[66.691675] (serial_motor_demo) CommandEnded: {'returncode': 1}
+[66.691987] (serial_motor_demo) JobEnded: {'identifier': 'serial_motor_demo', 'rc': 1}
+[66.702085] (-) EventReactorShutdown: {}

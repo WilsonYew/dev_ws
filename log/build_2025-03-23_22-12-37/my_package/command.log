@@ -1,0 +1,1 @@
+Invoking command in '/home/wilsonlo/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/my_package

@@ -1,0 +1,1 @@
+error: [Errno 17] File exists: '/home/wilsonlo/dev_ws/build/serial_motor_demo/resource/serial_motor_demo' -> '/home/wilsonlo/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages/serial_motor_demo'

@@ -1,0 +1,170 @@
+[0.027s] Invoking command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[0.091s] [  1%] Built target serial_motor_demo_msgs__rosidl_generator_type_description
+[0.116s] [  1%] Built target ament_cmake_python_symlink_serial_motor_demo_msgs
+[0.125s] [  3%] Built target serial_motor_demo_msgs__cpp
+[0.127s] [ 24%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[0.158s] [ 33%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[0.165s] [ 42%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[0.169s] [ 51%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[0.171s] [ 61%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[0.171s] [ 70%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[0.174s] [ 79%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[0.198s] [ 79%] Built target serial_motor_demo_msgs
+[0.221s] [ 81%] Built target serial_motor_demo_msgs__py
+[0.247s] [ 88%] Built target serial_motor_demo_msgs__rosidl_generator_py
+[0.270s] [ 96%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c
+[0.270s] [ 96%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c
+[0.270s] [100%] Built target serial_motor_demo_msgs_s__rosidl_typesupport_c
+[0.395s] running egg_info
+[0.420s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[0.421s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[0.421s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[0.494s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[0.495s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[0.522s] [100%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[0.535s] Invoked command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[0.537s] Invoking command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs
+[0.545s] -- Install configuration: ""
+[0.545s] -- Execute custom install script
+[0.546s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[0.555s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.json
+[0.564s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.json
+[0.573s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.json
+[0.583s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[0.593s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[0.603s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[0.612s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[0.620s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[0.630s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[0.639s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[0.649s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[0.657s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[0.666s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.h
+[0.676s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.h
+[0.685s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.h
+[0.695s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.703s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[0.715s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[0.726s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[0.734s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[0.745s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[0.754s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.763s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[0.772s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[0.784s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[0.795s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.804s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[0.813s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[0.821s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[0.831s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp
+[0.840s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[0.848s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[0.857s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[0.865s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp
+[0.874s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[0.883s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[0.891s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[0.900s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp
+[0.909s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[0.917s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_command.hpp
+[0.926s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/motor_vels.hpp
+[0.934s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.943s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[0.952s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.959s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[0.967s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.976s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[0.985s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[0.994s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[1.003s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[1.011s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[1.020s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[1.029s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.037s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.045s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[1.055s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/__init__.py
+[1.063s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c
+[1.071s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.080s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.090s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/__init__.py
+[1.098s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[1.107s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals_s.c
+[1.115s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[1.123s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command_s.c
+[1.131s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[1.139s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels_s.c
+[1.147s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so
+[1.155s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.163s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so
+[1.172s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.172s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.so
+[1.172s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.so
+[1.172s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[1.181s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[1.190s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[1.199s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[1.208s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[1.216s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[1.225s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[1.234s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[1.242s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[1.250s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[1.259s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[1.267s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[1.275s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[1.285s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[1.293s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[1.301s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[1.312s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[1.321s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[1.329s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[1.337s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.345s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.353s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.362s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.369s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.377s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.386s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[1.397s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[1.406s] -- Symlinking: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[1.414s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[1.415s] -- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so" to ""
+[1.415s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[1.415s] -- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[1.415s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[1.416s] -- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[1.416s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[1.416s] -- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so" to ""
+[1.416s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.416s] -- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.416s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[1.417s] -- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[1.417s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[1.417s] -- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so" to ""
+[1.455s] Listing '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs'...
+[1.455s] Compiling '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/__init__.py'...
+[1.455s] Listing '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg'...
+[1.455s] Compiling '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/__init__.py'...
+[1.456s] Compiling '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py'...
+[1.456s] Compiling '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_command.py'...
+[1.456s] Compiling '/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py'...
+[1.461s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so
+[1.461s] -- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_py.so" to ""
+[1.461s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[1.461s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.461s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.461s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.461s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.461s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.462s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[1.462s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.462s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[1.462s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.462s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.462s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.462s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.463s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[1.463s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.463s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport.cmake
+[1.463s] -- Installing: /home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/export_serial_motor_demo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.465s] Invoked command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs

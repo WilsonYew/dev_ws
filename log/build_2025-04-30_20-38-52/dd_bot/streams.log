@@ -1,0 +1,73 @@
+[0.017s] Invoking command in '/home/wilsonlo/dev_ws/build/dd_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/dd_bot -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/dd_bot
+[1.384s] -- The C compiler identification is GNU 13.3.0
+[2.389s] -- The CXX compiler identification is GNU 13.3.0
+[2.426s] -- Detecting C compiler ABI info
+[2.817s] -- Detecting C compiler ABI info - done
+[2.835s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.836s] -- Detecting C compile features
+[2.837s] -- Detecting C compile features - done
+[2.874s] -- Detecting CXX compiler ABI info
+[3.200s] -- Detecting CXX compiler ABI info - done
+[3.219s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.219s] -- Detecting CXX compile features
+[3.219s] -- Detecting CXX compile features - done
+[3.343s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.633s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.791s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.981s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.002s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.002s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.006s] -- Added test 'lint_cmake' to check CMake code style
+[4.009s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.020s] -- Added test 'xmllint' to check XML markup files
+[4.023s] -- Configuring done (4.0s)
+[4.027s] -- Generating done (0.0s)
+[4.035s] -- Build files have been written to: /home/wilsonlo/dev_ws/build/dd_bot
+[4.068s] Invoked command in '/home/wilsonlo/dev_ws/build/dd_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/dd_bot -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/dd_bot
+[4.069s] Invoking command in '/home/wilsonlo/dev_ws/build/dd_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/dd_bot -- -j8 -l8
+[4.108s] Invoked command in '/home/wilsonlo/dev_ws/build/dd_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/dd_bot -- -j8 -l8
+[4.109s] Invoking command in '/home/wilsonlo/dev_ws/build/dd_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/dd_bot
+[4.116s] -- Install configuration: ""
+[4.116s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config
+[4.117s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/my_controllers.yaml
+[4.129s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/twist_mux.yaml
+[4.154s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/joystick.yaml
+[4.164s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/empty.yaml
+[4.178s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/gz_bridge.yaml
+[4.189s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/view_bot.rviz
+[4.205s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description
+[4.205s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/stereo_camera.xacro
+[4.205s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/robot_core.xacro
+[4.205s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/left right wheel.txt
+[4.227s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/camera.xacro
+[4.227s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/depth_camera.xacro
+[4.227s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/robot.urdf.xacro
+[4.228s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/lidar.xacro
+[4.228s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/ros2_control.xacro
+[4.228s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/gazebo_control.xacro
+[4.228s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/inertial_macros.xacro
+[4.228s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch
+[4.228s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/joystick.launch.py
+[4.228s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/stereo_image_proc.launch.py
+[4.228s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/launch_sim.launch.py
+[4.228s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/rsp.launch.py
+[4.228s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/rplidar.launch.py
+[4.228s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/worlds
+[4.228s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/worlds/empty.world
+[4.244s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/worlds/obstacles.world
+[4.255s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/ament_index/resource_index/package_run_dependencies/dd_bot
+[4.256s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/ament_index/resource_index/parent_prefix_path/dd_bot
+[4.256s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/ament_prefix_path.sh
+[4.256s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/ament_prefix_path.dsv
+[4.256s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/path.sh
+[4.256s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/path.dsv
+[4.256s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.bash
+[4.256s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.sh
+[4.256s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.zsh
+[4.256s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.dsv
+[4.256s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.dsv
+[4.256s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/ament_index/resource_index/packages/dd_bot
+[4.257s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/cmake/dd_botConfig.cmake
+[4.257s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/cmake/dd_botConfig-version.cmake
+[4.257s] -- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.xml
+[4.259s] Invoked command in '/home/wilsonlo/dev_ws/build/dd_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/dd_bot

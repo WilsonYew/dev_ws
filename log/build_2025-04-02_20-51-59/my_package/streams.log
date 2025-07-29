@@ -1,0 +1,36 @@
+[0.118s] Invoking command in '/home/wilsonlo/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/my_package
+[0.634s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.163s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.262s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.845s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.846s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.859s] -- Added test 'lint_cmake' to check CMake code style
+[1.861s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.874s] -- Added test 'xmllint' to check XML markup files
+[1.878s] -- Configuring done (1.7s)
+[2.129s] -- Generating done (0.2s)
+[2.135s] -- Build files have been written to: /home/wilsonlo/dev_ws/build/my_package
+[2.146s] Invoked command in '/home/wilsonlo/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/my_package
+[2.147s] Invoking command in '/home/wilsonlo/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/my_package -- -j8 -l8
+[2.259s] Invoked command in '/home/wilsonlo/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/my_package -- -j8 -l8
+[2.261s] Invoking command in '/home/wilsonlo/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/my_package
+[2.279s] -- Install configuration: ""
+[2.280s] -- Execute custom install script
+[2.280s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/launch/listener.launch.py
+[2.281s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/launch/talker.launch.py
+[2.281s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[2.282s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[2.283s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[2.288s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[2.290s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/environment/path.sh
+[2.290s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/environment/path.dsv
+[2.293s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/local_setup.bash
+[2.293s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/local_setup.sh
+[2.293s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/local_setup.zsh
+[2.293s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/local_setup.dsv
+[2.293s] -- Symlinking: /home/wilsonlo/dev_ws/install/my_package/share/my_package/package.dsv
+[2.308s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[2.308s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[2.309s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[2.309s] -- Up-to-date symlink: /home/wilsonlo/dev_ws/install/my_package/share/my_package/package.xml
+[2.403s] Invoked command in '/home/wilsonlo/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/my_package
