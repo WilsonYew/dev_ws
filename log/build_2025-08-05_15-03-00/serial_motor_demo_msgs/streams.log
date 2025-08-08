@@ -1,0 +1,91 @@
+[0.039s] Invoking command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs
+[1.149s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.385s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.823s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.321s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.618s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.806s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.983s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.322s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.573s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.968s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.077s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.080s] -- Added test 'lint_cmake' to check CMake code style
+[7.081s] -- Added test 'xmllint' to check XML markup files
+[7.243s] -- Configuring done (7.1s)
+[7.544s] -- Generating done (0.3s)
+[7.557s] -- Build files have been written to: /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs
+[7.563s] Invoked command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs
+[7.564s] Invoking command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[7.619s] [  0%] Built target ament_cmake_python_symlink_serial_motor_demo_msgs
+[7.628s] [  1%] Built target serial_motor_demo_msgs__rosidl_generator_type_description
+[7.650s] [  3%] Built target serial_motor_demo_msgs__cpp
+[7.662s] [  9%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__description.c.o[0m
+[7.662s] [  9%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o[0m
+[7.663s] [  9%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o[0m
+[7.663s] [ 12%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__description.c.o[0m
+[7.663s] [ 12%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o[0m
+[7.663s] [ 14%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o[0m
+[7.663s] [ 16%] [32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__description.c.o[0m
+[7.782s] In file included from [01m[K/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c:5[m[K:
+[7.782s] [01m[K/usr/include/string.h:26:10:[m[K [01;31m[Kfatal error: [m[Kbits/libc-header-start.h: No such file or directory
+[7.782s]    26 | #include [01;31m[K<bits/libc-header-start.h>[m[K
+[7.782s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.782s] In file included from [01m[K/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c:5[m[K:
+[7.782s] [01m[K/usr/include/string.h:26:10:[m[K [01;31m[Kfatal error: [m[Kbits/libc-header-start.h: No such file or directory
+[7.783s]    26 | #include [01;31m[K<bits/libc-header-start.h>[m[K
+[7.783s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.783s] In file included from [01m[K/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h:17[m[K,
+[7.783s]                  from [01m[K/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__description.c:5[m[K:
+[7.783s] [01m[K/usr/include/stdlib.h:26:10:[m[K [01;31m[Kfatal error: [m[Kbits/libc-header-start.h: No such file or directory
+[7.783s]    26 | #include [01;31m[K<bits/libc-header-start.h>[m[K
+[7.783s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.783s] compilation terminated.
+[7.783s] compilation terminated.
+[7.783s] In file included from [01m[K/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h:17[m[K,
+[7.784s]                  from [01m[K/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c:4[m[K:
+[7.784s] [01m[K/usr/include/stdlib.h:26:10:[m[K [01;31m[Kfatal error: [m[Kbits/libc-header-start.h: No such file or directory
+[7.784s]    26 | #include [01;31m[K<bits/libc-header-start.h>[m[K
+[7.784s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.784s] In file included from [01m[K/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.h:17[m[K,
+[7.784s]                  from [01m[K/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__description.c:5[m[K:
+[7.784s] [01m[K/usr/include/stdlib.h:26:10:[m[K [01;31m[Kfatal error: [m[Kbits/libc-header-start.h: No such file or directory
+[7.784s]    26 | #include [01;31m[K<bits/libc-header-start.h>[m[K
+[7.784s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.784s] compilation terminated.
+[7.784s] In file included from [01m[K/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.h:17[m[K,
+[7.784s]                  from [01m[K/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c:4[m[K:
+[7.784s] [01m[K/usr/include/stdlib.h:26:10:[m[K [01;31m[Kfatal error: [m[Kbits/libc-header-start.h: No such file or directory
+[7.784s]    26 | #include [01;31m[K<bits/libc-header-start.h>[m[K
+[7.784s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.785s] In file included from [01m[K/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h:17[m[K,
+[7.785s]                  from [01m[K/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__description.c:5[m[K:
+[7.785s] [01m[K/usr/include/stdlib.h:26:10:[m[K [01;31m[Kfatal error: [m[Kbits/libc-header-start.h: No such file or directory
+[7.785s]    26 | #include [01;31m[K<bits/libc-header-start.h>[m[K
+[7.785s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.785s] compilation terminated.
+[7.785s] compilation terminated.
+[7.785s] compilation terminated.
+[7.785s] compilation terminated.
+[7.785s] gmake[2]: *** [CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/build.make:231: CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o] Error 1
+[7.785s] gmake[2]: *** Waiting for unfinished jobs....
+[7.785s] gmake[2]: *** [CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/build.make:175: CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o] Error 1
+[7.785s] gmake[2]: *** [CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/build.make:189: CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o] Error 1
+[7.786s] gmake[2]: *** [CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/build.make:245: CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__description.c.o] Error 1
+[7.786s] gmake[2]: *** [CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/build.make:203: CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__description.c.o] Error 1
+[7.786s] gmake[2]: *** [CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/build.make:161: CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__description.c.o] Error 1
+[7.786s] gmake[2]: *** [CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/build.make:217: CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o] Error 1
+[7.786s] gmake[1]: *** [CMakeFiles/Makefile2:241: CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/all] Error 2
+[7.786s] gmake[1]: *** Waiting for unfinished jobs....
+[7.960s] running egg_info
+[8.012s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[8.012s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[8.012s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[8.088s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[8.115s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[8.141s] [ 16%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[8.142s] gmake: *** [Makefile:146: all] Error 2
+[8.144s] Invoked command in '/home/wilsonlo/dev_ws/build/serial_motor_demo_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/serial_motor_demo_msgs -- -j8 -l8
