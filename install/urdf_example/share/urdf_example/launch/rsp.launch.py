@@ -1,1 +1,0 @@
-/home/wilsonlo/dev_ws/src/urdf_example/launch/rsp.launch.py

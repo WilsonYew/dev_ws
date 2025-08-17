@@ -1,1 +1,0 @@
-/home/wilsonlo/dev_ws/src/dd_bot/launch/rplidar.launch.py

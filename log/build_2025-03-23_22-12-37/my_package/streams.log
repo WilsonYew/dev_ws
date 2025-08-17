@@ -1,9 +1,0 @@
-[0.012s] Invoking command in '/home/wilsonlo/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/my_package
-[1.439s] -- The C compiler identification is GNU 13.3.0
-[2.368s] -- The CXX compiler identification is GNU 13.3.0
-[2.663s] -- Detecting C compiler ABI info
-[3.030s] -- Detecting C compiler ABI info - done
-[3.041s] -- Check for working C compiler: /usr/bin/cc - skipped
-[3.042s] -- Detecting C compile features
-[3.065s] -- Detecting C compile features - done
-[3.076s] -- Detecting CXX compiler ABI info

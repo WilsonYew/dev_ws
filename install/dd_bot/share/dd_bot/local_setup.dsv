@@ -1,1 +1,2 @@
-/home/wilsonlo/dev_ws/build/dd_bot/ament_cmake_environment_hooks/local_setup.dsv
+source;share/dd_bot/environment/ament_prefix_path.sh
+source;share/dd_bot/environment/path.sh

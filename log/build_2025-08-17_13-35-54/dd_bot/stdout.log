@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (5.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wilsonlo/dev_ws/build/dd_bot
+-- Install configuration: ""
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/view_bot.rviz
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/empty.yaml
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/gz_bridge.yaml
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/twist_mux.yaml
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/inertial_macros.xacro
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/gazebo_control.xacro
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/left right wheel.txt
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/robot.urdf.xacro
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/robot_core.xacro
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/rsp.launch.py
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/launch_sim.launch.py
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/worlds
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/worlds/empty.world
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/ament_index/resource_index/package_run_dependencies/dd_bot
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/ament_index/resource_index/parent_prefix_path/dd_bot
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/ament_prefix_path.sh
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/ament_prefix_path.dsv
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/path.sh
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/environment/path.dsv
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.bash
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.sh
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.zsh
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/local_setup.dsv
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.dsv
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/ament_index/resource_index/packages/dd_bot
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/cmake/dd_botConfig.cmake
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/cmake/dd_botConfig-version.cmake
+-- Installing: /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/package.xml

@@ -1,1 +1,0 @@
-/home/wilsonlo/dev_ws/src/dd_bot/launch/stereo_image_proc.launch.py

@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "dd_bot")
 set(dd_bot_VERSION "0.0.0")
-set(dd_bot_MAINTAINER "Wilson Lo <my_email@email.com>")
+set(dd_bot_MAINTAINER "Josh Newans <my_email@email.com>")
 set(dd_bot_BUILD_DEPENDS )
 set(dd_bot_BUILDTOOL_DEPENDS "ament_cmake")
 set(dd_bot_BUILD_EXPORT_DEPENDS )
