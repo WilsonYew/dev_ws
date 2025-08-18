@@ -168,7 +168,7 @@
         </visual>
         <collision>
             <geometry>
-                <sphere radius="0.05"/>
+                <sphere radius="0.09"/>
             </geometry>
                 
         </collision>       
