@@ -78,10 +78,12 @@
             </geometry>
         </collision>
 
-        <xacro:inertial_box mass="0.5" x="0.75" y="0.5" z="0.03" >
-            <origin xyz="0 0.0 0.0" rpy="0 0 0"/>
-        </xacro:inertial_box>
-
+        <inertial>
+        <origin xyz="0.20 0.0 0" rpy="0 0 0"/>
+        <mass value="1.9809343e+01"/>
+        <inertia ixx="4.914e-01" iyy="2.317e-01" izz="5.354e-01"
+                ixy="3.367e-16" ixz="-7.465e-03" iyz="1.793e-16"/>
+        </inertial>
     </link>
 
     <gazebo reference="chassis">
