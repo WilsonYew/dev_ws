@@ -17,7 +17,6 @@
 /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/face.xacro
 /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
 /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
-/home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
 /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
 /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
 /home/wilsonlo/dev_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro

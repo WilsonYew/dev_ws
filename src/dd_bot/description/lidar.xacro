@@ -2,9 +2,9 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
     <joint name="laser_joint" type="fixed">
-        <parent link="chassis"/>
+        <parent link="base_link"/>
         <child link="laser_frame"/>
-        <origin xyz="0.122 0 0.212" rpy="0 0 0"/>
+        <origin xyz="0.0 -0.125 0.26" rpy="0 0 0"/>
     </joint>
 
     <link name="laser_frame">
@@ -49,8 +49,8 @@
                     </horizontal>
                 </scan>
                 <range>
-                    <min>0.3</min>
-                    <max>12</max>
+                    <min>0.12</min>
+                    <max>8</max>
                 </range>
             </lidar>
             <topic>scan</topic>
