@@ -1,0 +1,34 @@
+-----------------------------------------------------------------------------------------
+{1}SERIAL_MOTOR:
+[rasp-pi] (/dev/ttyACM0)
+ros2 run serial_motor_demo driver --ros-args -p serial_port:=/dev/ttyACM0 -p baud_rate:=57600 -p loop_rate:=30 -p encoder_cpr:=2400
+[dev-comp]
+ros2 run serial_motor_demo gui
+
+-----------------------------------------------------------------------------------------
+{2}LIDAR:
+[rasp-pi] (/dev/ttyUSB0)
+ros2 launch ydlidar_ros2_driver ydlidar_launch.py
+
+topic: out= /scan, frame: laser
+
+-----------------------------------------------------------------------------------------
+{3}IMU:
+[rasp-pi] (i2c) (linear+gyro x-orientation)
+ros2 launch mpu6050driver mpu6050driver_launch.py
+
+topic: out= /imu_rawdata
+
+[rasp-pi]
+ros2 run imu_filter_madgwick imu_filter_madgwick_node --ros-args -p use_mag:=false
+
+topic: out= /imu_data
+
+-----------------------------------------------------------------------------------------
+{4}
+
+
+
+
+TROUBLESHOOT:
+ls /dev/tty*

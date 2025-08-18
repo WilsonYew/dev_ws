@@ -402,12 +402,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 41,
-			"id" : "serial_motor_demo_msgs__cpp::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 7,
 			"id" : "serial_motor_demo_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "serial_motor_demo_msgs__cpp::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "serial_motor_demo_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",

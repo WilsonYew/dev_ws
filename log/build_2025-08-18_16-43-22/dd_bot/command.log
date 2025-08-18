@@ -1,0 +1,4 @@
+Invoking command in '/home/wilsonlo/dev_ws/build/dd_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/dd_bot -- -j8 -l8
+Invoked command in '/home/wilsonlo/dev_ws/build/dd_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/dd_bot -- -j8 -l8
+Invoking command in '/home/wilsonlo/dev_ws/build/dd_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/dd_bot
+Invoked command in '/home/wilsonlo/dev_ws/build/dd_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/dd_bot
