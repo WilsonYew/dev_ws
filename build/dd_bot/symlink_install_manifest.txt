@@ -1,5 +1,7 @@
 /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/empty.yaml
 /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/gz_bridge.yaml
+/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/joystick.yaml
+/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/my_controllers.yaml
 /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/twist_mux.yaml
 /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/config/view_bot.rviz
 /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/gazebo_control.xacro
@@ -9,6 +11,7 @@
 /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/right_camera.xacro
 /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/robot.urdf.xacro
 /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/robot_core.xacro
+/home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/description/ros2_control.xacro
 /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/launch_sim.launch.py
 /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/launch/rsp.launch.py
 /home/wilsonlo/dev_ws/install/dd_bot/share/dd_bot/worlds/empty.world
