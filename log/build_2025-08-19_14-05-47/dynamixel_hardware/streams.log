@@ -1,0 +1,49 @@
+[0.016s] Invoking command in '/home/wilsonlo/dev_ws/build/dynamixel_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/dynamixel_hardware/dynamixel_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/dynamixel_hardware
+[0.085s] -- The C compiler identification is GNU 13.3.0
+[0.157s] -- The CXX compiler identification is GNU 13.3.0
+[0.173s] -- Detecting C compiler ABI info
+[0.273s] -- Detecting C compiler ABI info - done
+[0.288s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.288s] -- Detecting C compile features
+[0.289s] -- Detecting C compile features - done
+[0.301s] -- Detecting CXX compiler ABI info
+[0.423s] -- Detecting CXX compiler ABI info - done
+[0.436s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.436s] -- Detecting CXX compile features
+[0.437s] -- Detecting CXX compile features - done
+[0.441s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.625s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.718s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.765s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.831s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.850s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.909s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.041s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.049s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.226s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.252s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.291s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.402s] -- Found rclcpp_lifecycle: 28.1.10 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.450s] -- Found hardware_interface: 4.32.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[1.891s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[1.892s]   By not providing "Finddynamixel_workbench_toolbox.cmake" in
+[1.892s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[1.892s]   configuration file provided by "dynamixel_workbench_toolbox", but CMake did
+[1.892s]   not find one.
+[1.892s] 
+[1.892s]   Could not find a package configuration file provided by
+[1.892s]   "dynamixel_workbench_toolbox" with any of the following names:
+[1.892s] 
+[1.892s]     dynamixel_workbench_toolboxConfig.cmake
+[1.892s]     dynamixel_workbench_toolbox-config.cmake
+[1.892s] 
+[1.892s]   Add the installation prefix of "dynamixel_workbench_toolbox" to
+[1.892s]   CMAKE_PREFIX_PATH or set "dynamixel_workbench_toolbox_DIR" to a directory
+[1.892s]   containing one of the above files.  If "dynamixel_workbench_toolbox"
+[1.893s]   provides a separate development package or SDK, be sure it has been
+[1.893s]   installed.
+[1.893s] 
+[1.893s] [0m
+[1.893s] -- Configuring incomplete, errors occurred!
+[1.906s] Invoked command in '/home/wilsonlo/dev_ws/build/dynamixel_hardware' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wilsonlo/dev_ws/src/dynamixel_hardware/dynamixel_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wilsonlo/dev_ws/install/dynamixel_hardware

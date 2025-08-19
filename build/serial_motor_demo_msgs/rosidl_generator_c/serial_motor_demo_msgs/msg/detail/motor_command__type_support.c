@@ -6,8 +6,8 @@
 
 #include "serial_motor_demo_msgs/msg/detail/motor_command__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "serial_motor_demo_msgs/msg/detail/motor_command__struct.h"
 #include "serial_motor_demo_msgs/msg/detail/motor_command__type_support.h"
+#include "serial_motor_demo_msgs/msg/detail/motor_command__struct.h"
 
 #ifdef __cplusplus
 extern "C"
