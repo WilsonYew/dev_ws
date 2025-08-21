@@ -1,0 +1,22 @@
+[0.956s] Invoking command in '/home/wilsonlo/dev_ws/src/serial_motor_demo/serial_motor_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wilsonlo/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/build/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/wilsonlo/dev_ws/build/serial_motor_demo/build install --record /home/wilsonlo/dev_ws/build/serial_motor_demo/install.log --single-version-externally-managed install_data
+[1.257s] running egg_info
+[1.280s] writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[1.280s] writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[1.281s] writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[1.282s] writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[1.282s] writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[1.329s] reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[1.330s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[1.330s] running build
+[1.330s] running build_py
+[1.331s] running install
+[1.337s] running install_lib
+[1.361s] running install_data
+[1.361s] running install_egg_info
+[1.386s] removing '/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo-0.0.0-py3.12.egg-info' (and everything under it)
+[1.386s] Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo-0.0.0-py3.12.egg-info
+[1.387s] running install_scripts
+[1.532s] Installing driver script to /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[1.532s] Installing gui script to /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[1.533s] writing list of installed files to '/home/wilsonlo/dev_ws/build/serial_motor_demo/install.log'
+[1.562s] Invoked command in '/home/wilsonlo/dev_ws/src/serial_motor_demo/serial_motor_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wilsonlo/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/build/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/wilsonlo/dev_ws/build/serial_motor_demo/build install --record /home/wilsonlo/dev_ws/build/serial_motor_demo/install.log --single-version-externally-managed install_data

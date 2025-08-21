@@ -1,0 +1,40 @@
+[0.863s] Invoking command in '/home/wilsonlo/dev_ws/build/serial_motor_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wilsonlo/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/build/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/wilsonlo/dev_ws/build/serial_motor_demo/build
+[1.184s] running develop
+[1.415s] Removing /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial-motor-demo.egg-link (link to .)
+[1.444s] Invoked command in '/home/wilsonlo/dev_ws/build/serial_motor_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wilsonlo/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/build/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/wilsonlo/dev_ws/build/serial_motor_demo/build
+[1.445s] Invoking command in '/home/wilsonlo/dev_ws/src/serial_motor_demo/serial_motor_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wilsonlo/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/build/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/wilsonlo/dev_ws/build/serial_motor_demo/build install --record /home/wilsonlo/dev_ws/build/serial_motor_demo/install.log --single-version-externally-managed install_data --force
+[1.739s] running egg_info
+[1.762s] writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[1.762s] writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[1.763s] writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[1.763s] writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[1.764s] writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[1.811s] reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[1.812s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[1.812s] running build
+[1.812s] running build_py
+[1.813s] creating /home/wilsonlo/dev_ws/build/serial_motor_demo/build
+[1.813s] creating /home/wilsonlo/dev_ws/build/serial_motor_demo/build/lib
+[1.813s] creating /home/wilsonlo/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[1.813s] copying serial_motor_demo/gui.py -> /home/wilsonlo/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[1.813s] copying serial_motor_demo/driver.py -> /home/wilsonlo/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[1.814s] copying serial_motor_demo/__init__.py -> /home/wilsonlo/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[1.814s] running install
+[1.821s] running install_lib
+[1.843s] creating /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo
+[1.844s] copying /home/wilsonlo/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo/gui.py -> /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo
+[1.844s] copying /home/wilsonlo/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo/driver.py -> /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo
+[1.844s] copying /home/wilsonlo/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo/__init__.py -> /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo
+[1.844s] byte-compiling /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo/gui.py to gui.cpython-312.pyc
+[1.846s] byte-compiling /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo/driver.py to driver.cpython-312.pyc
+[1.847s] byte-compiling /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo/__init__.py to __init__.cpython-312.pyc
+[1.847s] running install_data
+[1.847s] copying resource/serial_motor_demo -> /home/wilsonlo/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[1.848s] copying package.xml -> /home/wilsonlo/dev_ws/install/serial_motor_demo/share/serial_motor_demo
+[1.848s] running install_egg_info
+[1.871s] Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages/serial_motor_demo-0.0.0-py3.12.egg-info
+[1.872s] running install_scripts
+[2.022s] Installing driver script to /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.022s] Installing gui script to /home/wilsonlo/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[2.023s] writing list of installed files to '/home/wilsonlo/dev_ws/build/serial_motor_demo/install.log'
+[2.052s] Invoked command in '/home/wilsonlo/dev_ws/src/serial_motor_demo/serial_motor_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/wilsonlo/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/install/serial_motor_demo_msgs/lib/python3.12/site-packages:/home/wilsonlo/dev_ws/build/serial_motor_demo:/home/wilsonlo/dev_ws/install/serial_motor_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/wilsonlo/dev_ws/build/serial_motor_demo/build install --record /home/wilsonlo/dev_ws/build/serial_motor_demo/install.log --single-version-externally-managed install_data --force

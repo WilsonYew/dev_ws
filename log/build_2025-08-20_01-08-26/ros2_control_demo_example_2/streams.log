@@ -1,0 +1,61 @@
+[0.017s] Invoking command in '/home/wilsonlo/dev_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/ros2_control_demo_example_2 -- -j8 -l8
+[0.041s] -- Found ros2_control_cmake: 0.2.1 (/home/wilsonlo/dev_ws/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[0.041s] -- Compiler warnings enabled for GNU
+[0.041s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.042s] -- Found controller_manager: 4.32.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[0.317s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.330s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.343s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.421s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.423s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.487s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.906s] -- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[2.126s] -- Configuring done (2.1s)
+[2.151s] -- Generating done (0.0s)
+[2.160s] -- Build files have been written to: /home/wilsonlo/dev_ws/build/ros2_control_demo_example_2
+[2.206s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_2.dir/hardware/diffbot_system.cpp.o[0m
+[7.101s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_2.so[0m
+[7.300s] [100%] Built target ros2_control_demo_example_2
+[7.310s] Invoked command in '/home/wilsonlo/dev_ws/build/ros2_control_demo_example_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wilsonlo/dev_ws/build/ros2_control_demo_example_2 -- -j8 -l8
+[7.311s] Invoking command in '/home/wilsonlo/dev_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/ros2_control_demo_example_2
+[7.319s] -- Install configuration: ""
+[7.319s] -- Installing: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control_demo_example_2.xml
+[7.320s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2
+[7.320s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2
+[7.320s] -- Installing: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/diffbot_system.hpp
+[7.320s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch
+[7.320s] -- Installing: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/view_robot.launch.py
+[7.320s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control
+[7.320s] -- Installing: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control/diffbot.ros2_control.xacro
+[7.320s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/urdf
+[7.320s] -- Installing: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/urdf/diffbot.urdf.xacro
+[7.320s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch
+[7.321s] -- Installing: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/diffbot.launch.py
+[7.321s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/config
+[7.321s] -- Installing: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/config/diffbot_controllers.yaml
+[7.321s] -- Installing: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so
+[7.322s] -- Set non-toolchain portion of runtime path of "/home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so" to ""
+[7.322s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.sh
+[7.322s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.dsv
+[7.322s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_2
+[7.322s] -- Installing: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_2
+[7.322s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.sh
+[7.322s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.dsv
+[7.322s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.sh
+[7.323s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.dsv
+[7.323s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.bash
+[7.323s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.sh
+[7.323s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.zsh
+[7.323s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.dsv
+[7.323s] -- Installing: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.dsv
+[7.323s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/packages/ros2_control_demo_example_2
+[7.323s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_2
+[7.323s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export.cmake
+[7.323s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export-noconfig.cmake
+[7.323s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_targets-extras.cmake
+[7.323s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.324s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config.cmake
+[7.324s] -- Up-to-date: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config-version.cmake
+[7.324s] -- Installing: /home/wilsonlo/dev_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.xml
+[7.325s] Invoked command in '/home/wilsonlo/dev_ws/build/ros2_control_demo_example_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wilsonlo/dev_ws/install/serial_motor_demo:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wilsonlo/dev_ws/build/ros2_control_demo_example_2
